@@ -1,0 +1,2006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>#Aviksha — Akanksha & Avneesh · Jul 01, 2026</title>
+<meta name="description" content="The wedding of Akanksha & Avneesh — Jul 01, 2026 at 3AG Hotel & Resort, Ayodhya. With your blessings, we celebrate a day of love, tradition and togetherness.">
+<meta name="theme-color" content="#7A2048">
+<meta property="og:title" content="#Aviksha — Akanksha & Avneesh Wedding">
+<meta property="og:description" content="Join us for the whole day of joy, tradition, and togetherness. Jul 01, 2026 at 3AG Hotel & Resort, Ayodhya.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://avnishavi.github.io/aviksha-wedding/images/DSC_1386.JPG">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>🪷</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.26.2/babel.min.js"></script>
+
+<style>
+:root {
+  --cream:#FFF8F0; --cream2:#F5E6D3; --cream3:#FAF0E0;
+  --pink-l:#FADCE6; --pink:#F2A6BD; --pink-d:#D4829A;
+  --gold:#C9A84C; --gold-l:#E8D49A; --gold-d:#8B6914; --gold-bright:#E5B935;
+  --maroon:#7A2048; --maroon-l:#A0375E; --maroon-d:#5A1535;
+  --sage:#9CAF88; --sage-l:#C8D5BB;
+  --txt:#3D1A2E; --txt2:#5C3D4E; --txt3:#7A5C6A;
+  --ff-display:'Playfair Display',Georgia,serif;
+  --ff-body:'Cormorant Garamond',Georgia,serif;
+  --ff-hindi:'Noto Serif Devanagari',serif;
+  --ff-script:'Tangerine',cursive;
+  --shadow-sm:0 2px 12px rgba(122,32,72,0.08);
+  --shadow-md:0 8px 28px rgba(122,32,72,0.12);
+  --shadow-lg:0 20px 60px rgba(122,32,72,0.18);
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--ff-body);color:var(--txt2);background:var(--cream);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+/* ============ INTRO / LOADING SCREEN ============ */
+.intro{position:fixed;inset:0;z-index:9999;background:radial-gradient(ellipse at center,#5A1535 0%,#2A0A1A 100%);display:flex;align-items:center;justify-content:center;flex-direction:column;transition:opacity 1.2s ease,visibility 1.2s ease}
+.intro.done{opacity:0;visibility:hidden;pointer-events:none}
+.intro-mandala{width:280px;height:280px;animation:mandalaSpin 20s linear infinite;filter:drop-shadow(0 0 20px rgba(229,185,53,0.4))}
+@keyframes mandalaSpin{to{transform:rotate(360deg)}}
+.intro-om{position:absolute;font-family:var(--ff-hindi);font-size:80px;color:var(--gold-bright);text-shadow:0 0 30px rgba(229,185,53,0.6);animation:omPulse 2.5s ease-in-out infinite}
+@keyframes omPulse{0%,100%{transform:scale(1);opacity:0.9}50%{transform:scale(1.08);opacity:1}}
+.intro-text{position:absolute;bottom:80px;text-align:center}
+.intro-names{font-family:var(--ff-script);font-size:54px;color:var(--gold-l);letter-spacing:2px;margin-bottom:8px;animation:fadeUp 1.5s ease-out 0.5s backwards}
+.intro-tagline{font-family:var(--ff-body);font-size:13px;color:rgba(232,212,154,0.7);letter-spacing:6px;text-transform:uppercase;animation:fadeUp 1.5s ease-out 1s backwards}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.intro-skip{position:absolute;top:24px;right:24px;background:rgba(255,255,255,0.1);border:1px solid rgba(232,212,154,0.3);color:rgba(255,248,240,0.8);padding:8px 16px;border-radius:20px;font-family:var(--ff-body);font-size:12px;letter-spacing:2px;cursor:pointer;backdrop-filter:blur(4px);transition:all .3s}
+.intro-skip:hover{background:rgba(255,255,255,0.2);color:white}
+
+/* curtain reveal */
+.curtain{position:fixed;inset:0;z-index:9998;pointer-events:none;display:flex}
+.curtain-l,.curtain-r{flex:1;background:linear-gradient(to right,#5A1535 0%,#7A2048 50%,#5A1535 100%);transform:translateX(0);transition:transform 1.4s cubic-bezier(.85,0,.15,1)}
+.curtain-r{background:linear-gradient(to left,#5A1535 0%,#7A2048 50%,#5A1535 100%)}
+.curtain.open .curtain-l{transform:translateX(-100%)}
+.curtain.open .curtain-r{transform:translateX(100%)}
+.curtain.gone{display:none}
+
+/* ============ PARALLAX MANDALA BG ============ */
+.parallax-bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.bg-mandala{position:absolute;opacity:0.04;will-change:transform}
+.bg-mandala svg{width:100%;height:100%}
+.bg-mandala-1{top:5%;left:-10%;width:500px;height:500px}
+.bg-mandala-2{top:40%;right:-15%;width:600px;height:600px}
+.bg-mandala-3{bottom:5%;left:-5%;width:450px;height:450px}
+
+/* ============ NAV ============ */
+.nav{position:fixed;top:8px;left:0;right:0;z-index:100;background:rgba(255,248,240,0.9);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(201,168,76,0.18);transition:all .3s}
+.nav.scrolled{background:rgba(255,248,240,0.96);box-shadow:0 4px 20px rgba(122,32,72,0.06)}
+.nav-inner{max-width:1100px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+.nav-brand{font-family:var(--ff-display);font-size:24px;font-weight:700;background:linear-gradient(135deg,var(--maroon) 0%,var(--pink-d) 35%,var(--gold-bright) 60%,var(--maroon) 100%);background-size:200% 200%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;border:none;cursor:pointer;letter-spacing:1px;animation:brandShimmer 4s ease-in-out infinite;filter:drop-shadow(0 1px 2px rgba(122,32,72,0.15))}
+@keyframes brandShimmer{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.nav-brand .hash{font-weight:400;color:var(--gold);-webkit-text-fill-color:var(--gold);font-style:italic;margin-right:1px}
+.nav-links{display:flex;list-style:none;gap:4px;align-items:center}
+.nav-link{background:none;border:none;cursor:pointer;font-family:var(--ff-body);font-size:14px;font-weight:500;color:var(--txt2);padding:7px 14px;border-radius:20px;letter-spacing:1px;transition:all .25s;position:relative}
+.nav-link:hover{color:var(--maroon);background:rgba(250,220,230,0.5)}
+.nav-link.active{color:var(--maroon);background:var(--pink-l)}
+.hamburger{display:none;background:none;border:none;cursor:pointer;flex-direction:column;gap:4px;padding:6px;border-radius:8px}
+.hamburger span{display:block;width:22px;height:2px;background:var(--maroon);border-radius:2px;transition:all .3s}
+@media(max-width:780px){
+  .hamburger{display:flex}
+  .nav-links{display:none;position:absolute;top:100%;left:0;right:0;background:rgba(255,248,240,0.98);backdrop-filter:blur(14px);flex-direction:column;padding:14px 20px 22px;border-bottom:1px solid rgba(201,168,76,0.18);gap:2px}
+  .nav-links.show{display:flex;align-items:stretch}
+  .nav-link{text-align:left;padding:11px 16px;font-size:15px;border-radius:10px}
+}
+
+/* ============ MUSIC TOGGLE ============ */
+.music-toggle{position:fixed;bottom:24px;right:24px;z-index:90;width:54px;height:54px;border-radius:50%;background:linear-gradient(135deg,var(--maroon) 0%,var(--maroon-d) 100%);border:2px solid var(--gold-l);color:var(--gold-bright);cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-md);transition:all .3s}
+.music-toggle:hover{transform:scale(1.08);box-shadow:var(--shadow-lg)}
+.music-toggle svg{width:22px;height:22px;transition:transform .3s}
+.music-toggle.playing svg{animation:vinylSpin 4s linear infinite}
+@keyframes vinylSpin{to{transform:rotate(360deg)}}
+.music-tooltip{position:absolute;right:64px;top:50%;transform:translateY(-50%);background:var(--maroon);color:var(--cream);padding:6px 12px;border-radius:14px;font-size:12px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .3s;letter-spacing:1px}
+.music-toggle:hover .music-tooltip{opacity:1}
+
+/* ============ HERO ============ */
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:110px 24px 60px;position:relative;background:linear-gradient(170deg,#FFF0E8 0%,#FADCE6 35%,#FFF8F0 65%,#FADCE6 100%);overflow:hidden}
+.hero-deco{position:absolute;font-family:var(--ff-hindi);color:var(--gold);opacity:0.15;font-size:120px;pointer-events:none;line-height:1}
+.hero-deco-tl{top:80px;left:30px}
+.hero-deco-br{bottom:30px;right:30px;transform:rotate(180deg)}
+.hero-om{font-family:var(--ff-hindi);font-size:60px;color:var(--gold);line-height:1;margin-bottom:8px;text-shadow:0 2px 8px rgba(201,168,76,0.2)}
+.hero-ganesh{font-family:var(--ff-hindi);font-size:16px;font-weight:600;color:var(--maroon);letter-spacing:2px;margin-bottom:14px}
+.hero-shloka{font-family:var(--ff-hindi);font-size:14px;color:var(--pink-d);line-height:1.9;max-width:520px;font-weight:500;margin-bottom:6px;padding:0 16px}
+.hero-meaning{font-style:italic;font-size:13px;color:var(--txt2);max-width:460px;line-height:1.7;margin-bottom:24px;padding:0 16px}
+.hero-invite{font-size:13px;letter-spacing:3.5px;text-transform:uppercase;color:var(--txt2);margin-bottom:8px;font-weight:500}
+.hero-subtitle{font-style:italic;font-size:17px;color:var(--txt2);margin-bottom:30px;font-weight:400}
+.hero-name{font-family:var(--ff-display);font-size:64px;font-weight:600;color:var(--maroon);line-height:1.1;letter-spacing:1px}
+.hero-name-script{font-family:var(--ff-script);font-size:88px;color:var(--maroon);line-height:0.9;font-weight:700}
+.hero-parents{font-size:13px;color:var(--txt3);margin-top:6px;font-style:italic;letter-spacing:0.5px}
+.hero-amp{font-family:var(--ff-script);font-size:72px;color:var(--gold);margin:8px 0;line-height:0.7;animation:ampPulse 3s ease-in-out infinite}
+@keyframes ampPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+.hero-date-block{margin-top:36px}
+.hero-date-label{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--pink-d);margin-bottom:8px;font-weight:600}
+.hero-date{font-family:var(--ff-display);font-size:24px;font-weight:500;color:var(--txt);margin-bottom:6px}
+.hero-hindi-date{font-family:var(--ff-hindi);font-size:14px;color:var(--maroon-l);margin-bottom:8px}
+.hero-venue-link{font-size:15px;color:var(--pink-d);font-style:italic;display:inline-flex;align-items:center;gap:6px}
+.countdown{display:flex;gap:24px;justify-content:center;margin-top:36px;flex-wrap:wrap;padding:0 16px}
+.cd-unit{text-align:center;background:rgba(255,248,240,0.5);backdrop-filter:blur(6px);padding:14px 18px;border-radius:14px;border:1px solid rgba(201,168,76,0.25);min-width:78px;transition:transform .3s}
+.cd-unit:hover{transform:translateY(-3px)}
+.cd-num{font-family:var(--ff-display);font-size:42px;font-weight:600;color:var(--maroon);line-height:1;display:block}
+.cd-label{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--pink-d);margin-top:6px;display:block;font-weight:600}
+.cd-live-badge{display:inline-block;padding:8px 22px;background:linear-gradient(135deg,var(--maroon),var(--pink-d));color:var(--cream);border-radius:24px;font-weight:600;letter-spacing:3px;font-size:14px;margin-top:36px;animation:liveBadgePulse 2s ease-in-out infinite;text-transform:uppercase}
+@keyframes liveBadgePulse{0%,100%{box-shadow:0 0 0 0 rgba(122,32,72,0.5)}50%{box-shadow:0 0 0 14px rgba(122,32,72,0)}}
+.hero-scroll-hint{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);font-size:11px;letter-spacing:3px;color:var(--pink-d);text-transform:uppercase;opacity:0.7;animation:scrollBounce 2s ease-in-out infinite}
+@keyframes scrollBounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)}}
+@media(max-width:560px){
+  .hero-name{font-size:46px}
+  .hero-name-script{font-size:64px}
+  .hero-amp{font-size:54px}
+  .cd-num{font-size:32px}
+  .cd-unit{padding:10px 14px;min-width:64px}
+  .countdown{gap:12px}
+  .hero-deco{font-size:80px}
+}
+
+/* ============ DIVIDER ============ */
+.divider{display:flex;align-items:center;justify-content:center;gap:14px;margin:32px 0}
+.div-line{width:90px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.div-ornament{color:var(--gold);font-size:18px;line-height:1;flex-shrink:0}
+
+/* ============ SECTION BASE ============ */
+section{position:relative;z-index:2}
+.section-padding{padding:90px 24px}
+.section-title{font-family:var(--ff-display);font-size:38px;font-weight:600;color:var(--maroon);text-align:center;margin-bottom:6px;letter-spacing:0.5px}
+.section-script{font-family:var(--ff-script);font-size:48px;color:var(--gold);text-align:center;margin-bottom:-8px;line-height:1}
+.section-subtitle{text-align:center;font-style:italic;font-size:16px;color:var(--pink-d);margin-bottom:42px}
+
+/* ============ STORY ============ */
+.story-section{background:linear-gradient(180deg,var(--cream) 0%,#FFF0E8 50%,var(--cream) 100%)}
+.timeline{max-width:640px;margin:0 auto;position:relative;padding-left:32px}
+.timeline::before{content:'';position:absolute;left:7px;top:8px;bottom:8px;width:2px;background:linear-gradient(180deg,var(--gold-l),var(--gold),var(--gold-l))}
+.tl-item{position:relative;margin-bottom:36px;padding-left:28px}
+.tl-item::before{content:'';position:absolute;left:-29px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--gold);border:3px solid var(--cream);box-shadow:0 0 0 2px var(--gold-l),0 0 12px rgba(201,168,76,0.4)}
+.tl-year{font-family:var(--ff-display);font-size:13px;font-weight:600;color:var(--gold-d);letter-spacing:2px;text-transform:uppercase;margin-bottom:4px}
+.tl-title{font-family:var(--ff-display);font-size:24px;font-weight:600;color:var(--maroon);margin-bottom:8px}
+.tl-text{font-size:16.5px;color:var(--txt2);line-height:1.75}
+
+/* ============ EVENTS ============ */
+.events-section{background:linear-gradient(180deg,#FFF0E8 0%,var(--pink-l) 50%,#FFF0E8 100%)}
+.events-grid{max-width:920px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:24px}
+.event-card{background:rgba(255,248,240,0.85);backdrop-filter:blur(8px);border:1px solid rgba(201,168,76,0.3);border-radius:18px;padding:30px 22px;text-align:center;transition:all .4s cubic-bezier(.4,0,.2,1);position:relative;overflow:hidden}
+.event-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold-l),var(--gold),var(--gold-l));transform:scaleX(0);transition:transform .4s}
+.event-card:hover{transform:translateY(-8px);box-shadow:0 16px 40px rgba(122,32,72,0.15);border-color:var(--gold)}
+.event-card:hover::before{transform:scaleX(1)}
+.ev-icon{font-size:36px;margin-bottom:12px;display:inline-block;transition:transform .4s}
+.event-card:hover .ev-icon{transform:scale(1.15) rotate(-5deg)}
+.ev-hindi{font-family:var(--ff-hindi);font-size:22px;font-weight:600;color:var(--maroon);margin-bottom:2px}
+.ev-eng{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--pink-d);margin-bottom:12px;font-weight:600}
+.ev-date{font-family:var(--ff-display);font-size:15.5px;font-weight:600;color:var(--txt);margin-bottom:2px}
+.ev-time{font-size:13px;color:var(--gold-d);font-style:italic;margin-bottom:14px}
+.ev-desc{font-size:14px;color:var(--txt2);line-height:1.7}
+
+/* ============ GALLERY — 3D COVERFLOW ============ */
+.gallery-section{background:linear-gradient(180deg,var(--cream) 0%,#FFF0E8 100%);overflow:hidden}
+.gallery-3d{position:relative;width:100%;height:520px;perspective:1400px;perspective-origin:center 45%;margin:0 auto;max-width:1200px}
+.gallery-stage{position:absolute;inset:0;transform-style:preserve-3d}
+.gallery-card{position:absolute;top:50%;left:50%;width:300px;height:380px;margin-left:-150px;margin-top:-190px;transition:transform 1s cubic-bezier(.32,.72,0,1),opacity .8s ease,box-shadow .8s ease;cursor:pointer;border-radius:16px;overflow:hidden;background:linear-gradient(180deg,#FFF8F0,#F5E6D3);box-shadow:0 18px 40px rgba(122,32,72,0.25);border:8px solid #FFF8F0;transform-origin:center center}
+.gallery-card.center{box-shadow:0 30px 80px rgba(122,32,72,0.4),0 0 0 1px var(--gold)}
+.gallery-card img{width:100%;height:100%;object-fit:cover;display:block;border-radius:6px}
+.gallery-card .gc-cap{position:absolute;bottom:8px;left:8px;right:8px;background:linear-gradient(0deg,rgba(122,32,72,0.85),transparent);color:white;padding:14px 12px 8px;font-family:var(--ff-display);font-size:14px;font-weight:500;border-radius:0 0 6px 6px;letter-spacing:0.5px}
+.gallery-card.placeholder{background:linear-gradient(135deg,#FFF8F0 0%,#F5E6D3 100%);display:flex;align-items:center;justify-content:center;flex-direction:column;padding:20px}
+.gc-ph-mehendi{width:140px;height:140px;margin-bottom:14px;opacity:0.55}
+.gc-ph-hindi{font-family:var(--ff-hindi);font-size:32px;font-weight:600;color:var(--maroon);margin-bottom:4px;line-height:1}
+.gc-ph-eng{font-family:var(--ff-display);font-size:13px;color:var(--gold-d);letter-spacing:3px;text-transform:uppercase;margin-bottom:14px}
+.gc-ph-soon{font-family:var(--ff-body);font-style:italic;font-size:13px;color:var(--txt3)}
+.gallery-controls{display:flex;justify-content:center;gap:14px;margin-top:30px;align-items:center;flex-wrap:wrap}
+.gc-arrow{width:42px;height:42px;border-radius:50%;background:rgba(255,248,240,0.9);border:1px solid rgba(201,168,76,0.4);cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--maroon);font-size:18px;transition:all .25s}
+.gc-arrow:hover{background:var(--maroon);color:white;transform:scale(1.08)}
+.gc-dots{display:flex;gap:8px;align-items:center}
+.gc-dot{width:8px;height:8px;border-radius:50%;background:rgba(122,32,72,0.25);border:none;cursor:pointer;padding:0;transition:all .3s}
+.gc-dot.active{background:var(--maroon);width:24px;border-radius:6px}
+.gc-pause{margin-left:8px;background:none;border:1px solid rgba(201,168,76,0.4);color:var(--gold-d);font-size:11px;letter-spacing:1.5px;padding:6px 12px;border-radius:14px;cursor:pointer;text-transform:uppercase;font-family:var(--ff-body);font-weight:600;transition:all .25s}
+.gc-pause:hover{background:var(--maroon);color:white;border-color:var(--maroon)}
+@media(max-width:780px){
+  .gallery-3d{height:440px}
+  .gallery-card{width:240px;height:300px;margin-left:-120px;margin-top:-150px}
+}
+@media(max-width:480px){
+  .gallery-3d{height:380px}
+  .gallery-card{width:200px;height:260px;margin-left:-100px;margin-top:-130px}
+}
+
+/* ============ EVENT CARDS — 3D FLIP ============ */
+.events-grid{max-width:920px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;perspective:1400px}
+.event-flip{position:relative;height:340px;cursor:pointer;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.4,0,.2,1)}
+.event-flip.flipped{transform:rotateY(180deg)}
+.event-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:18px;padding:26px 22px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:rgba(255,248,240,0.92);backdrop-filter:blur(8px);border:1px solid rgba(201,168,76,0.3);box-shadow:0 8px 24px rgba(122,32,72,0.08)}
+.event-face.back{transform:rotateY(180deg);background:linear-gradient(135deg,var(--maroon) 0%,var(--maroon-d) 100%);color:var(--cream);border-color:var(--gold);justify-content:flex-start;padding-top:30px}
+.event-face.back .ev-back-title{font-family:var(--ff-display);font-size:21px;color:var(--gold-bright);margin-bottom:16px;font-weight:600}
+.event-face.back .ev-back-row{display:flex;gap:10px;margin-bottom:11px;width:100%;align-items:flex-start;text-align:left}
+.event-face.back .ev-back-icon{font-size:16px;width:22px;flex-shrink:0;text-align:center;color:var(--gold-l)}
+.event-face.back .ev-back-text{font-size:13px;line-height:1.55;color:var(--cream);opacity:0.92}
+.event-face.back .ev-back-text strong{color:var(--gold-l);font-weight:600}
+.ev-flip-hint{position:absolute;bottom:10px;left:0;right:0;text-align:center;font-size:9.5px;letter-spacing:2px;color:var(--gold-d);text-transform:uppercase;opacity:0.55;font-weight:600}
+.event-face.back .ev-flip-hint{color:var(--gold-l)}
+.ev-mini-countdown{margin-top:14px;font-size:11px;color:var(--maroon);background:var(--pink-l);padding:5px 12px;border-radius:14px;letter-spacing:1.2px;font-weight:600;text-transform:uppercase}
+.ev-mini-countdown.live{background:linear-gradient(135deg,var(--maroon),var(--pink-d));color:white;animation:liveBadgePulse 2s ease-in-out infinite}
+.ev-mini-countdown.past{background:rgba(156,175,136,0.25);color:var(--sage)}
+
+/* ============ FAMILIES & LETTER ============ */
+.families-section{background:linear-gradient(180deg,#FFF8F0 0%,#F5E6D3 50%,#FFF8F0 100%);position:relative;overflow:hidden}
+.families-shlok{text-align:center;font-family:var(--ff-hindi);font-size:15px;color:var(--maroon);line-height:2;margin:0 auto 36px;max-width:560px;font-weight:500;padding:0 16px}
+.families-shlok .sh-meaning{display:block;font-family:var(--ff-body);font-style:italic;font-size:13px;color:var(--txt3);margin-top:8px;line-height:1.6;font-weight:400}
+.families-grid{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1fr auto 1fr;gap:24px;align-items:stretch;padding:0 12px}
+@media(max-width:780px){.families-grid{grid-template-columns:1fr;gap:14px}}
+.family-card{background:rgba(255,250,242,0.95);border:1px solid var(--gold);border-radius:18px;padding:38px 28px 32px;text-align:center;position:relative;box-shadow:0 8px 28px rgba(122,32,72,0.1)}
+.family-card::before{content:'';position:absolute;top:10px;left:10px;right:10px;bottom:10px;border:1px dashed rgba(201,168,76,0.45);border-radius:14px;pointer-events:none}
+.family-corner{position:absolute;width:18px;height:18px;border:1.5px solid var(--gold);opacity:0.7}
+.family-corner.tl{top:6px;left:6px;border-right:none;border-bottom:none;border-top-left-radius:6px}
+.family-corner.tr{top:6px;right:6px;border-left:none;border-bottom:none;border-top-right-radius:6px}
+.family-corner.bl{bottom:6px;left:6px;border-right:none;border-top:none;border-bottom-left-radius:6px}
+.family-corner.br{bottom:6px;right:6px;border-left:none;border-top:none;border-bottom-right-radius:6px}
+.family-emblem{font-family:var(--ff-hindi);font-size:32px;color:var(--gold);line-height:1;margin-bottom:8px;opacity:0.85}
+.family-eng{font-family:var(--ff-display);font-size:14px;letter-spacing:5px;color:var(--gold-d);text-transform:uppercase;margin-bottom:4px;font-weight:600}
+.family-place{font-family:var(--ff-body);font-size:13px;color:var(--maroon-l);margin-bottom:20px;font-style:italic;letter-spacing:1px}
+.family-rule{width:50px;height:1px;background:var(--gold);margin:0 auto 18px;opacity:0.6}
+.family-host-label{font-style:italic;font-size:13px;color:var(--txt3);margin-bottom:8px;letter-spacing:0.5px}
+.family-name{font-family:var(--ff-display);font-size:18px;color:var(--maroon);font-weight:600;line-height:1.55;margin:0}
+.family-amp{font-family:var(--ff-script);font-size:24px;color:var(--gold);line-height:1;margin:2px 0;font-style:italic}
+.family-of{font-style:italic;font-size:13px;color:var(--txt3);margin:18px 0 4px;letter-spacing:0.5px}
+.family-person{font-family:var(--ff-script);font-size:42px;color:var(--maroon);line-height:1;margin:4px 0;font-weight:700}
+.family-relation{font-style:italic;font-size:12.5px;color:var(--gold-d);margin-top:8px;letter-spacing:1.5px;text-transform:uppercase;font-weight:600}
+
+.family-bridge{display:flex;align-items:center;justify-content:center;flex-direction:column;min-width:50px;gap:14px;padding:0 4px}
+@media(max-width:780px){.family-bridge{flex-direction:row;min-width:auto;padding:6px 0;gap:18px}}
+.fb-line{width:1px;flex:1;background:linear-gradient(180deg,transparent,var(--gold) 30%,var(--gold) 70%,transparent);min-height:50px}
+@media(max-width:780px){.fb-line{width:50px;height:1px;flex:none;background:linear-gradient(90deg,transparent,var(--gold) 30%,var(--gold) 70%,transparent)}}
+.fb-symbol{font-family:var(--ff-hindi);font-size:22px;color:var(--gold-bright);text-shadow:0 0 12px rgba(229,185,53,0.5)}
+
+.host-statement{max-width:580px;margin:36px auto 0;text-align:center;font-family:var(--ff-display);font-size:18px;font-style:italic;color:var(--maroon);line-height:1.7;padding:0 16px}
+
+.letter-card{max-width:620px;margin:50px auto 0;padding:48px 50px 36px;background:linear-gradient(180deg,#FFFAF2 0%,#FFF5E8 100%);border-radius:6px;position:relative;box-shadow:0 24px 60px rgba(122,32,72,0.14),inset 0 0 0 1px rgba(201,168,76,0.25)}
+.letter-card::before,.letter-card::after{content:'';position:absolute;width:30px;height:30px;border:1.5px solid var(--gold);opacity:0.55}
+.letter-card::before{top:14px;left:14px;border-right:none;border-bottom:none}
+.letter-card::after{bottom:14px;right:14px;border-left:none;border-top:none}
+.letter-header{text-align:center;font-family:var(--ff-script);font-size:30px;color:var(--gold-d);margin-bottom:6px;line-height:1}
+.letter-subhead{text-align:center;font-size:11px;color:var(--gold-d);letter-spacing:5px;text-transform:uppercase;margin-bottom:28px;font-weight:600;opacity:0.7}
+.letter-body{font-family:var(--ff-body);font-size:17.5px;color:var(--txt2);line-height:1.85;font-style:italic;text-align:left}
+.letter-body p{margin-bottom:14px}
+.letter-body p:last-of-type{margin-bottom:0}
+.letter-signature{text-align:right;margin-top:30px;padding-top:18px;border-top:1px dashed rgba(201,168,76,0.3)}
+.letter-sig-script{font-family:var(--ff-script);font-size:54px;color:var(--maroon);line-height:1;display:inline-block}
+.letter-sig-place{font-style:italic;font-size:12px;color:var(--txt3);margin-top:6px;letter-spacing:1px}
+@media(max-width:560px){
+  .letter-card{padding:34px 26px 26px}
+  .letter-body{font-size:16px}
+  .letter-sig-script{font-size:42px}
+  .family-card{padding:32px 22px 26px}
+  .family-person{font-size:36px}
+}
+
+/* ============ CURSOR SPARKLE ============ */
+.sparkle-dot{position:fixed;width:6px;height:6px;border-radius:50%;pointer-events:none;z-index:9999;animation:sparkleFade .9s ease-out forwards;mix-blend-mode:screen}
+@keyframes sparkleFade{0%{opacity:0.9;transform:scale(1);box-shadow:0 0 10px currentColor}100%{opacity:0;transform:scale(0.2) translateY(-12px);box-shadow:0 0 0 currentColor}}
+
+/* ============ LIGHTBOX ============ */
+.lightbox{position:fixed;inset:0;z-index:200;background:rgba(61,26,46,0.94);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;padding:20px;cursor:pointer;animation:lbIn .3s ease-out}
+@keyframes lbIn{from{opacity:0}to{opacity:1}}
+.lightbox img{max-width:92vw;max-height:88vh;border-radius:10px;box-shadow:0 24px 80px rgba(0,0,0,0.6)}
+.lb-close{position:absolute;top:20px;right:24px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:white;font-size:20px;cursor:pointer;width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;transition:all .2s}
+.lb-close:hover{background:rgba(255,255,255,0.25)}
+.lb-nav{position:absolute;top:50%;background:rgba(255,255,255,0.15);border:none;color:white;width:50px;height:50px;border-radius:50%;cursor:pointer;font-size:24px;display:flex;align-items:center;justify-content:center;transition:all .2s;transform:translateY(-50%)}
+.lb-nav:hover{background:rgba(255,255,255,0.3);transform:translateY(-50%) scale(1.1)}
+.lb-prev{left:16px}
+.lb-next{right:16px}
+
+/* ============ TWO CITIES — GHAZIABAD x AYODHYA ============ */
+.cities-section{background:linear-gradient(180deg,#FFF0E8 0%,#F8E4D0 50%,#FFF0E8 100%);position:relative;overflow:hidden}
+.cities-section::before{content:'';position:absolute;top:0;left:0;right:0;height:60px;background:linear-gradient(180deg,rgba(122,32,72,0.05),transparent)}
+.cities-intro{max-width:680px;margin:0 auto 40px;text-align:center;font-size:17px;color:var(--txt2);line-height:1.85;font-style:italic;padding:0 12px}
+.cities-intro .city-name{font-family:var(--ff-script);font-size:34px;color:var(--maroon);font-style:normal;line-height:0.8;display:inline-block;vertical-align:-2px}
+.cities-grid{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr auto 1fr;gap:30px;align-items:stretch;padding:0 12px}
+@media(max-width:880px){.cities-grid{grid-template-columns:1fr;gap:20px}}
+
+.city-panel{position:relative;border-radius:24px;overflow:hidden;box-shadow:0 12px 40px rgba(122,32,72,0.15);border:1px solid rgba(201,168,76,0.4);background:#1A0A12}
+.city-illustration{width:100%;height:280px;display:block}
+.city-content{padding:28px 26px;background:linear-gradient(180deg,rgba(255,248,240,0.97),rgba(255,240,232,0.97));position:relative}
+.city-content::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:60%;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.city-hindi{font-family:var(--ff-hindi);font-size:32px;font-weight:700;color:var(--maroon);text-align:center;line-height:1;margin-bottom:4px}
+.city-eng{font-family:var(--ff-display);font-size:14px;font-weight:600;color:var(--gold-d);text-align:center;letter-spacing:5px;text-transform:uppercase;margin-bottom:14px}
+.city-tagline{font-family:var(--ff-script);font-size:32px;color:var(--maroon-l);text-align:center;line-height:1;margin-bottom:14px}
+.city-person{font-family:var(--ff-display);font-size:20px;font-weight:600;color:var(--maroon);text-align:center;margin-bottom:6px}
+.city-relation{font-size:13px;color:var(--txt3);text-align:center;font-style:italic;margin-bottom:18px;letter-spacing:0.5px}
+.city-quote{font-family:var(--ff-hindi);font-size:14px;color:var(--maroon-l);text-align:center;line-height:1.8;font-weight:500;margin-bottom:6px;padding:0 4px}
+.city-quote-meaning{font-style:italic;font-size:12.5px;color:var(--txt3);text-align:center;line-height:1.6;padding:0 4px}
+
+.city-bridge{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:0 4px;min-width:80px}
+@media(max-width:880px){.city-bridge{flex-direction:row;padding:8px 0;justify-content:center;gap:18px;min-width:auto}}
+.bridge-line{width:2px;flex:1;background:linear-gradient(180deg,transparent,var(--gold) 30%,var(--gold) 70%,transparent);min-height:60px;animation:bridgeGlow 3s ease-in-out infinite}
+@media(max-width:880px){.bridge-line{width:60px;height:2px;flex:none;background:linear-gradient(90deg,transparent,var(--gold) 30%,var(--gold) 70%,transparent)}}
+@keyframes bridgeGlow{0%,100%{opacity:0.5}50%{opacity:1}}
+.bridge-symbol{font-size:28px;color:var(--gold-bright);text-shadow:0 0 14px rgba(229,185,53,0.6);animation:bridgePulse 2.5s ease-in-out infinite}
+@keyframes bridgePulse{0%,100%{transform:scale(1) rotate(0deg)}50%{transform:scale(1.15) rotate(180deg)}}
+
+.cities-meeting{max-width:600px;margin:50px auto 0;text-align:center;padding:32px 28px;background:linear-gradient(135deg,rgba(122,32,72,0.06),rgba(201,168,76,0.08));border:1px solid rgba(201,168,76,0.4);border-radius:20px;position:relative}
+.cities-meeting::before,.cities-meeting::after{content:'❋';position:absolute;color:var(--gold);font-size:18px;top:50%;transform:translateY(-50%)}
+.cities-meeting::before{left:18px}
+.cities-meeting::after{right:18px}
+.meeting-quote{font-family:var(--ff-script);font-size:36px;color:var(--maroon);line-height:1.2;margin-bottom:8px}
+.meeting-text{font-style:italic;font-size:15px;color:var(--txt2);line-height:1.7}
+@media(max-width:560px){
+  .meeting-quote{font-size:28px}
+  .city-illustration{height:220px}
+}
+
+/* ============ DIYAS (floating lamps) ============ */
+.diyas-container{position:fixed;inset:0;pointer-events:none;z-index:1;overflow:hidden}
+.diya-float{position:absolute;width:32px;height:32px;animation:diyaRise linear infinite}
+@keyframes diyaRise{0%{transform:translateY(110vh) translateX(0px);opacity:0}10%{opacity:0.85}90%{opacity:0.85}100%{transform:translateY(-30px) translateX(var(--drift,30px));opacity:0}}
+.diya-flame{animation:flameFlicker 0.4s ease-in-out infinite alternate}
+@keyframes flameFlicker{0%{transform:scale(1) translateY(0)}100%{transform:scale(1.08) translateY(-1px)}}
+
+/* ============ RANGOLI DIVIDER ============ */
+.rangoli-divider{display:flex;justify-content:center;margin:36px auto;width:100%;max-width:300px}
+.rangoli-divider svg{width:100%;height:auto;max-width:280px;display:block}
+.rangoli-divider svg path,.rangoli-divider svg circle,.rangoli-divider svg line{stroke-dasharray:1000;stroke-dashoffset:1000;animation:rangoliDraw 2.4s ease-out forwards}
+.rangoli-divider.in-view svg path,.rangoli-divider.in-view svg circle,.rangoli-divider.in-view svg line{animation-play-state:running}
+@keyframes rangoliDraw{to{stroke-dashoffset:0}}
+
+/* ============ SRI YANTRA HERO BG ============ */
+.sri-yantra-bg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:600px;height:600px;opacity:0.08;pointer-events:none;z-index:0;animation:yantraRotate 60s linear infinite}
+@keyframes yantraRotate{to{transform:translate(-50%,-50%) rotate(360deg)}}
+.sri-yantra-bg svg{width:100%;height:100%}
+
+/* ============ MARIGOLD GARLAND TOP BORDER ============ */
+.marigold-strip{position:fixed;top:0;left:0;right:0;height:8px;z-index:101;background:repeating-linear-gradient(90deg,#E5A04C 0,#E5A04C 14px,#C97D2C 14px,#C97D2C 28px,#E5B935 28px,#E5B935 42px);box-shadow:0 1px 4px rgba(122,32,72,0.15)}
+
+/* ============ VENUE ============ */
+.venue-section{background:linear-gradient(180deg,#FFF0E8 0%,var(--pink-l) 40%,#FFF0E8 100%)}
+.venue-card{max-width:620px;margin:0 auto;background:rgba(255,248,240,0.92);backdrop-filter:blur(8px);border:1px solid rgba(201,168,76,0.35);border-radius:22px;padding:44px 36px;text-align:center;box-shadow:var(--shadow-md)}
+.venue-icon{font-size:44px;margin-bottom:16px}
+.venue-name{font-family:var(--ff-display);font-size:30px;font-weight:600;color:var(--maroon);margin-bottom:10px}
+.venue-address{font-size:16.5px;color:var(--txt2);line-height:1.7;margin-bottom:24px}
+.venue-map-link{display:inline-flex;align-items:center;gap:8px;padding:13px 32px;font-family:var(--ff-body);font-size:15px;font-weight:600;color:white;background:linear-gradient(135deg,var(--maroon) 0%,var(--maroon-l) 100%);border:none;border-radius:30px;text-decoration:none;letter-spacing:1.5px;transition:all .3s;box-shadow:var(--shadow-sm)}
+.venue-map-link:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}
+
+/* ============ RSVP ============ */
+.rsvp-section{background:linear-gradient(180deg,var(--cream) 0%,#FFF0E8 50%,var(--cream) 100%)}
+.rsvp-card{max-width:580px;margin:0 auto;background:rgba(255,248,240,0.92);backdrop-filter:blur(8px);border:1px solid rgba(201,168,76,0.35);border-radius:22px;padding:38px 34px;box-shadow:var(--shadow-md)}
+.form-row{margin-bottom:18px}
+.form-label{display:block;font-family:var(--ff-body);font-size:13px;font-weight:600;color:var(--maroon);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px}
+.form-input,.form-select,.form-textarea{width:100%;padding:12px 16px;font-family:var(--ff-body);font-size:16px;color:var(--txt);background:rgba(255,255,255,0.7);border:1px solid rgba(201,168,76,0.4);border-radius:10px;transition:all .25s;font-weight:500}
+.form-input:focus,.form-select:focus,.form-textarea:focus{outline:none;border-color:var(--maroon);background:white;box-shadow:0 0 0 3px rgba(122,32,72,0.1)}
+.form-textarea{resize:vertical;min-height:80px;font-family:var(--ff-body)}
+.form-checkboxes{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px}
+.form-check{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(250,220,230,0.4);border:1px solid rgba(201,168,76,0.3);border-radius:20px;cursor:pointer;transition:all .25s;font-size:14px;font-weight:500;color:var(--txt2)}
+.form-check:hover{background:rgba(250,220,230,0.7)}
+.form-check input{accent-color:var(--maroon);cursor:pointer}
+.form-check.checked{background:var(--pink-l);border-color:var(--maroon);color:var(--maroon)}
+.form-submit{width:100%;padding:14px;font-family:var(--ff-body);font-size:16px;font-weight:600;color:white;background:linear-gradient(135deg,var(--maroon) 0%,var(--maroon-l) 100%);border:none;border-radius:30px;cursor:pointer;letter-spacing:2px;text-transform:uppercase;margin-top:10px;transition:all .3s;box-shadow:var(--shadow-sm)}
+.form-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.form-submit:disabled{opacity:0.6;cursor:not-allowed}
+.rsvp-success{text-align:center;padding:30px 10px;animation:fadeUp .6s ease-out}
+.rsvp-success-icon{font-size:60px;margin-bottom:14px;display:inline-block;animation:successBounce .8s ease-out}
+@keyframes successBounce{0%{transform:scale(0)}50%{transform:scale(1.2)}100%{transform:scale(1)}}
+.rsvp-success-title{font-family:var(--ff-display);font-size:26px;color:var(--maroon);margin-bottom:8px;font-weight:600}
+.rsvp-success-text{font-size:15.5px;color:var(--txt2);line-height:1.7}
+.rsvp-note{margin-top:18px;font-size:12.5px;color:var(--txt3);text-align:center;font-style:italic}
+
+/* ============ MEMORIES (PHOTO UPLOAD) ============ */
+.memories-section{background:linear-gradient(180deg,#FFF0E8 0%,var(--pink-l) 50%,#FFF0E8 100%)}
+.memories-intro{max-width:600px;margin:0 auto 36px;text-align:center;font-size:16.5px;color:var(--txt2);line-height:1.75;font-style:italic}
+.memories-grid{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.memory-card{background:rgba(255,248,240,0.92);backdrop-filter:blur(8px);border:1px solid rgba(201,168,76,0.3);border-radius:18px;padding:30px 24px;text-align:center;transition:all .35s;display:flex;flex-direction:column}
+.memory-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-md);border-color:var(--gold)}
+.mem-icon{font-size:42px;margin-bottom:12px}
+.mem-title{font-family:var(--ff-display);font-size:20px;font-weight:600;color:var(--maroon);margin-bottom:8px}
+.mem-desc{font-size:14.5px;color:var(--txt2);line-height:1.65;margin-bottom:20px;flex-grow:1}
+.mem-button{display:inline-block;padding:11px 24px;font-family:var(--ff-body);font-size:14px;font-weight:600;color:var(--maroon);background:transparent;border:2px solid var(--maroon);border-radius:24px;text-decoration:none;letter-spacing:1.5px;transition:all .3s;cursor:pointer;text-transform:uppercase}
+.mem-button:hover{color:white;background:var(--maroon)}
+.mem-button.primary{color:white;background:var(--maroon)}
+.mem-button.primary:hover{background:var(--maroon-d);border-color:var(--maroon-d)}
+
+/* ============ FOOTER ============ */
+.footer{text-align:center;padding:50px 24px 36px;background:linear-gradient(180deg,var(--maroon-d) 0%,var(--maroon) 100%);position:relative;overflow:hidden}
+.footer::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.footer-mandala{font-family:var(--ff-hindi);font-size:40px;color:var(--gold-l);margin-bottom:14px}
+.footer-hindi{font-family:var(--ff-hindi);font-size:22px;color:var(--gold);font-weight:600;margin-bottom:8px}
+.footer-eng{font-style:italic;font-size:15px;color:var(--pink-l);margin-bottom:6px;max-width:480px;margin-left:auto;margin-right:auto}
+.footer-thanks{font-size:13px;color:rgba(232,212,154,0.7);letter-spacing:2px;margin-top:18px;text-transform:uppercase}
+.footer-copy{font-size:11px;color:rgba(255,248,240,0.35);letter-spacing:1.5px;margin-top:24px}
+
+/* ============ PETALS ============ */
+.petals-container{position:fixed;inset:0;pointer-events:none;z-index:1;overflow:hidden}
+@keyframes petalFall{0%{transform:translateY(-30px) rotate(0deg);opacity:0}8%{opacity:var(--op)}88%{opacity:var(--op)}100%{transform:translateY(100vh) rotate(600deg);opacity:0}}
+.petal{position:absolute;top:-20px;border-radius:50% 0 50% 50%;animation:petalFall linear infinite}
+
+/* ============ FADE-IN OBSERVER ============ */
+.fade-in{opacity:0;transform:translateY(30px);transition:opacity .8s ease-out,transform .8s ease-out}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+
+/* ============ CONFETTI ============ */
+.confetti-piece{position:fixed;width:10px;height:10px;top:-20px;z-index:300;pointer-events:none;animation:confettiFall 3s linear forwards}
+@keyframes confettiFall{0%{transform:translateY(0) rotate(0deg);opacity:1}100%{transform:translateY(110vh) rotate(720deg);opacity:0}}
+
+/* ============ RESPONSIVE ============ */
+@media(max-width:560px){
+  .section-title{font-size:30px}
+  .section-script{font-size:38px}
+  .section-padding{padding:70px 20px}
+  .events-grid{grid-template-columns:1fr;max-width:380px}
+  .venue-card{padding:32px 22px}
+  .gallery-3d{height:340px}
+  .gallery-card{width:180px;height:230px;margin-left:-90px;margin-top:-115px}
+  .rsvp-card{padding:28px 22px}
+  .travel-card{padding:26px 22px}
+  .memory-card{padding:26px 22px}
+  .music-toggle{width:48px;height:48px;bottom:18px;right:18px}
+}
+
+/* ============ SCHEDULE POPUP ============ */
+.sched-popup-overlay{position:fixed;inset:0;background:rgba(58,26,46,0.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;animation:schedFadeIn .4s ease}
+@keyframes schedFadeIn{from{opacity:0}to{opacity:1}}
+.sched-popup-card{background:linear-gradient(135deg,#FFF8F0 0%,#FAF0E0 100%);border:2px solid var(--gold);border-radius:20px;padding:32px 26px 28px;max-width:380px;width:100%;text-align:center;position:relative;box-shadow:0 24px 60px rgba(122,32,72,0.35);animation:schedPopupIn .5s cubic-bezier(.4,0,.2,1)}
+@keyframes schedPopupIn{from{opacity:0;transform:scale(0.85) translateY(20px)}to{opacity:1;transform:scale(1) translateY(0)}}
+.sched-popup-card::before{content:'';position:absolute;top:8px;left:8px;right:8px;bottom:8px;border:1px dashed rgba(201,168,76,0.5);border-radius:14px;pointer-events:none}
+.sched-popup-close{position:absolute;top:14px;right:14px;background:rgba(122,32,72,0.1);border:none;width:32px;height:32px;border-radius:50%;font-size:22px;color:var(--maroon);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .25s;z-index:2;line-height:1}
+.sched-popup-close:hover{background:var(--maroon);color:var(--cream);transform:rotate(90deg)}
+.sched-popup-icon{font-size:42px;margin-bottom:6px;line-height:1;position:relative;z-index:1}
+.sched-popup-title{font-family:var(--ff-display);font-size:25px;color:var(--maroon);margin-bottom:2px;font-weight:600;letter-spacing:0.5px;position:relative;z-index:1}
+.sched-popup-hindi{font-family:var(--ff-hindi);font-size:18px;color:var(--gold-d);margin-bottom:10px;font-weight:500;position:relative;z-index:1}
+.sched-popup-text{font-size:14px;color:var(--txt2);margin-bottom:20px;line-height:1.55;font-family:var(--ff-body);padding:0 8px;position:relative;z-index:1}
+.sched-popup-btn{display:inline-block;background:linear-gradient(135deg,var(--maroon) 0%,var(--maroon-d) 100%);color:var(--cream);text-decoration:none;padding:12px 26px;border-radius:30px;font-family:var(--ff-display);font-size:15px;font-weight:600;letter-spacing:1px;transition:all .3s;border:1px solid var(--gold);box-shadow:0 4px 14px rgba(122,32,72,0.25);position:relative;z-index:1}
+.sched-popup-btn:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(122,32,72,0.35)}
+.sched-popup-note{font-size:11px;color:var(--txt3);margin-top:14px;font-style:italic;letter-spacing:0.5px;position:relative;z-index:1}
+
+/* Floating schedule button */
+.sched-fab{position:fixed;bottom:88px;right:24px;z-index:90;width:54px;height:54px;border-radius:50%;background:linear-gradient(135deg,var(--gold-bright) 0%,var(--gold-d) 100%);border:2px solid var(--maroon);color:var(--cream);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:var(--shadow-md);transition:all .3s}
+.sched-fab:hover{transform:scale(1.08);box-shadow:var(--shadow-lg)}
+.sched-fab-tooltip{position:absolute;right:64px;top:50%;transform:translateY(-50%);background:var(--maroon);color:var(--cream);padding:6px 12px;border-radius:14px;font-size:12px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .3s;letter-spacing:1px}
+.sched-fab:hover .sched-fab-tooltip{opacity:1}
+@media (max-width:780px){
+  .sched-fab{width:48px;height:48px;bottom:76px;right:18px;font-size:20px}
+  .sched-popup-card{padding:28px 22px 24px}
+  .sched-popup-title{font-size:22px}
+}
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<!-- 🎵 BACKGROUND MUSIC: Replace this URL with your own audio file -->
+<!-- Suggested: upload an MP3 to your repo's /audio folder (e.g. audio/sitar.mp3)  -->
+<!-- Or use a free royalty-free track from pixabay/freesound -->
+<audio id="bg-music" loop autoplay preload="auto">
+  <source src="images/wedding-music.mp3" type="audio/mpeg">
+</audio>
+
+<script type="text/babel">
+const { useState, useEffect, useRef, useCallback } = React;
+
+/* ================== CONFIG ================== */
+const REPO_URL = "https://github.com/avnishavi/aviksha-wedding";
+const FORMSPREE_ID = "xeewgdvk"; // Aviksha RSVP form
+const DRIVE_UPLOAD_URL = "https://drive.google.com/drive/folders/1cdbW_UVC2mb9WUm677DNsn01AxeZKgY6?usp=sharing";
+const WHATSAPP_NUMBER = "919026233537"; // country code + number, no +
+const WEDDING_DATE = "2026-07-01T18:30:00+05:30";
+
+const SECTIONS = ["Home", "Story", "Cities", "Families", "Events", "Gallery", "Venue", "RSVP", "Memories"];
+
+const EVENTS = [
+  {
+    hindi: "हल्दी",
+    eng: "Haldi",
+    date: "July 1, 2026",
+    time: "11:00 AM onwards",
+    icon: "☀️",
+    dateObj: new Date("2026-07-01T11:00:00+05:30"),
+    dress: "Yellow, Orange & Floral Attire",
+    desc: "A joyful morning ceremony where turmeric blessings, laughter, and family traditions fill the day."
+  },
+
+  {
+    hindi: "विवाह",
+    eng: "Wedding",
+    date: "July 1, 2026",
+    time: "06:30 PM onwards",
+    icon: "🔥",
+    dateObj: new Date("2026-07-01T18:30:00+05:30"),
+    dress: "Traditional Indian Wedding Attire",
+    desc: "The sacred union  taking seven vows around the holy fire and beginning a lifetime together."
+  }
+];
+
+const STORY = [
+{title: "The First Meeting", text: "Our paths first crossed during a college fest, where a junior and a senior from different colleges met through a shared circle of friends. It was a brief chapter in a much longer story yet to unfold."},
+{title: "Reconnecting", text: "Years later, a conversation sparked by Comic Con brought us back in touch. What began as casual chats soon turned into endless conversations, shared laughter, and countless Naruto discussions that made every day a little brighter."},
+{title: "The Decision", text: "With our families' blessings and our hearts certain, the decision was clear. A lifetime together begins in Ayodhya, where our families come together to celebrate this new chapter."},
+{title: "The Wedding", text: "Two souls, rooted in tradition and united by destiny, celebrate their union at 3AG Hotel & Resort, surrounded by everyone they love."},
+];
+
+const PHOTOS = [
+  { src: encodeURI("images/DSC_0670.JPG"), caption: "Our Story" },
+  { src: encodeURI("images/DSC_1386.JPG"), caption: "Together Forever" },
+  { src: encodeURI("images/DSC_1419.JPG"), caption: "The Journey Begins" },
+  { src: encodeURI("images/WhatsApp Image 2026-03-22 at 10.53.23.jpeg"), caption: "Akanksha & Avneesh" },
+  // Placeholders shown if real photos haven't been added yet — they keep the carousel beautiful.
+  // To add a real photo, just put { src: "images/your-photo.jpg", caption: "..." } above.
+  //{ placeholder: true, hindi: "तिलक", eng: "Tilak" },
+  //{ placeholder: true, hindi: "हल्दी", eng: "Haldi" },
+  //{ placeholder: true, hindi: "मेहंदी", eng: "Mehendi" },
+  //{ placeholder: true, hindi: "संगीत", eng: "Sangeet" },
+  //{ placeholder: true, hindi: "विवाह", eng: "Wedding" },
+];
+
+/* ================== UTILITIES ================== */
+
+function shootConfetti() {
+  const colors = ["#F2A6BD", "#C9A84C", "#7A2048", "#FADCE6", "#E5B935", "#D4829A"];
+  for (let i = 0; i < 80; i++) {
+    const piece = document.createElement("div");
+    piece.className = "confetti-piece";
+    piece.style.left = Math.random() * 100 + "%";
+    piece.style.background = colors[Math.floor(Math.random() * colors.length)];
+    piece.style.animationDelay = Math.random() * 0.5 + "s";
+    piece.style.animationDuration = (2.5 + Math.random() * 2) + "s";
+    if (Math.random() > 0.5) piece.style.borderRadius = "50%";
+    document.body.appendChild(piece);
+    setTimeout(() => piece.remove(), 5500);
+  }
+}
+
+/* ================== MANDALA SVG ================== */
+
+function MandalaSVG({ size = 280 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 200 200">
+      <defs>
+        <radialGradient id="mg1">
+          <stop offset="0%" stopColor="#E5B935" stopOpacity="0.9"/>
+          <stop offset="100%" stopColor="#C9A84C" stopOpacity="0.5"/>
+        </radialGradient>
+      </defs>
+      <g stroke="url(#mg1)" strokeWidth="1" fill="none">
+        <circle cx="100" cy="100" r="90" />
+        <circle cx="100" cy="100" r="70" />
+        <circle cx="100" cy="100" r="50" />
+        <circle cx="100" cy="100" r="30" strokeWidth="1.5"/>
+        {[...Array(16)].map((_, i) => {
+          const a = (i * Math.PI * 2) / 16;
+          const x1 = 100 + Math.cos(a) * 30;
+          const y1 = 100 + Math.sin(a) * 30;
+          const x2 = 100 + Math.cos(a) * 90;
+          const y2 = 100 + Math.sin(a) * 90;
+          return <line key={i} x1={x1} y1={y1} x2={x2} y2={y2} />;
+        })}
+        {[...Array(8)].map((_, i) => {
+          const a = (i * Math.PI * 2) / 8;
+          const cx = 100 + Math.cos(a) * 70;
+          const cy = 100 + Math.sin(a) * 70;
+          return <circle key={i} cx={cx} cy={cy} r="14" />;
+        })}
+        {[...Array(8)].map((_, i) => {
+          const a = (i * Math.PI * 2) / 8 + Math.PI/8;
+          const cx = 100 + Math.cos(a) * 50;
+          const cy = 100 + Math.sin(a) * 50;
+          return <circle key={"i"+i} cx={cx} cy={cy} r="8" />;
+        })}
+      </g>
+      <g fill="url(#mg1)" opacity="0.6">
+        <circle cx="100" cy="100" r="6" />
+      </g>
+    </svg>
+  );
+}
+
+/* ================== SRI YANTRA (sacred geometry) ================== */
+
+function SriYantra() {
+  return (
+    <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="syg">
+          <stop offset="0%" stopColor="#7A2048" stopOpacity="0.8"/>
+          <stop offset="100%" stopColor="#C9A84C" stopOpacity="0.5"/>
+        </radialGradient>
+      </defs>
+      <g fill="none" stroke="url(#syg)" strokeWidth="1.2">
+        <circle cx="200" cy="200" r="190"/>
+        <circle cx="200" cy="200" r="160"/>
+        {/* Lotus petals outer */}
+        {[...Array(16)].map((_,i) => {
+          const a = (i * 360 / 16);
+          return <path key={i} d="M200,40 Q210,60 200,80 Q190,60 200,40" transform={`rotate(${a} 200 200)`}/>;
+        })}
+        {/* Lotus petals inner */}
+        {[...Array(8)].map((_,i) => {
+          const a = (i * 360 / 8) + 22.5;
+          return <path key={"p"+i} d="M200,80 Q215,110 200,140 Q185,110 200,80" transform={`rotate(${a} 200 200)`}/>;
+        })}
+        <circle cx="200" cy="200" r="120"/>
+        {/* Nine interlocking triangles - simplified Sri Yantra */}
+        <polygon points="200,90 290,250 110,250"/>
+        <polygon points="200,310 110,150 290,150"/>
+        <polygon points="200,120 270,235 130,235"/>
+        <polygon points="200,280 130,165 270,165"/>
+        <polygon points="200,140 255,225 145,225"/>
+        <polygon points="200,260 145,175 255,175"/>
+        <polygon points="200,160 240,215 160,215"/>
+        <polygon points="200,240 160,185 240,185"/>
+        <circle cx="200" cy="200" r="6" fill="url(#syg)"/>
+      </g>
+    </svg>
+  );
+}
+
+/* ================== GHAZIABAD GHATS (Akanksha's home) ================== */
+
+function GhaziabadIllustration() {
+  return (
+    <svg
+      viewBox="0 0 400 280"
+      xmlns="http://www.w3.org/2000/svg"
+      className="city-illustration"
+      preserveAspectRatio="xMidYMid slice"
+    >
+      <defs>
+        <linearGradient id="ghzSky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor="#0B1B3A" />
+          <stop offset="60%" stopColor="#1A2C54" />
+          <stop offset="100%" stopColor="#2C3E63" />
+        </linearGradient>
+        
+        {/* Glow effect for highway lights */}
+        <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+          <feGaussianBlur stdDeviation="2" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+
+      {/* Night Sky */}
+      <rect width="400" height="280" fill="url(#ghzSky)" />
+
+      {/* Stars */}
+      <g fill="#FFF8D6" opacity="0.8">
+        <circle cx="40" cy="30" r="1.2" />
+        <circle cx="80" cy="50" r="1" />
+        <circle cx="120" cy="22" r="1.5" />
+        <circle cx="175" cy="45" r="1" />
+        <circle cx="240" cy="25" r="1.4" />
+        <circle cx="310" cy="40" r="1" />
+        <circle cx="360" cy="28" r="1.3" />
+      </g>
+
+      {/* Moon */}
+      <circle cx="320" cy="55" r="18" fill="#F8E6A0" />
+      <circle cx="327" cy="50" r="16" fill="#0B1B3A" />
+
+      {/* Distant Industrial & Corporate Skyline */}
+      <g fill="#1F3050">
+        <rect x="0" y="140" width="35" height="60" />
+        <rect x="45" y="120" width="30" height="80" />
+        {/* Factory Chimneys */}
+        <rect x="60" y="100" width="4" height="25" />
+        <rect x="68" y="95" width="4" height="30" />
+        <rect x="82" y="135" width="25" height="65" />
+        <rect x="300" y="130" width="40" height="70" />
+        <rect x="350" y="115" width="45" height="85" />
+      </g>
+
+      {/* Main Residential Towers */}
+      <g>
+        <rect x="35" y="95" width="42" height="125" fill="#6E5A73" />
+        <rect x="95" y="75" width="52" height="145" fill="#7C6880" />
+        <rect x="165" y="55" width="65" height="165" fill="#8B768F" />
+        <rect x="250" y="85" width="48" height="135" fill="#7C6880" />
+        <rect x="315" y="65" width="55" height="155" fill="#8B768F" />
+      </g>
+
+      {/* Organic Lit Windows (Some turned off for realism) */}
+      <g fill="#FFD98A">
+        {Array.from({ length: 9 }).map((_, r) =>
+          Array.from({ length: 3 }).map((_, c) => (
+            (r + c) % 4 !== 0 && ( /* Randomizes lighting */
+              <rect key={`a-${r}-${c}`} x={45 + c * 10} y={105 + r * 12} width="5" height="6" opacity="0.9" />
+            )
+          ))
+        )}
+
+        {Array.from({ length: 11 }).map((_, r) =>
+          Array.from({ length: 4 }).map((_, c) => (
+            (r * c) % 5 !== 0 && (
+              <rect key={`b-${r}-${c}`} x={105 + c * 10} y={85 + r * 11} width="5" height="5" />
+            )
+          ))
+        )}
+
+        {Array.from({ length: 12 }).map((_, r) =>
+          Array.from({ length: 5 }).map((_, c) => (
+            (r + c) % 3 !== 0 && (
+              <rect key={`c-${r}-${c}`} x={178 + c * 11} y={68 + r * 11} width="5" height="5" />
+            )
+          ))
+        )}
+
+        {Array.from({ length: 10 }).map((_, r) =>
+          Array.from({ length: 3 }).map((_, c) => (
+            (r + c) % 5 !== 0 && (
+              <rect key={`d-${r}-${c}`} x={260 + c * 10} y={95 + r * 11} width="5" height="5" />
+            )
+          ))
+        )}
+
+        {Array.from({ length: 12 }).map((_, r) =>
+          Array.from({ length: 4 }).map((_, c) => (
+            (r * 2 + c) % 4 !== 0 && (
+              <rect key={`e-${r}-${c}`} x={325 + c * 11} y={75 + r * 11} width="5" height="5" />
+            )
+          ))
+        )}
+      </g>
+
+      {/* RRTS / Elevated Transit Viaduct */}
+      <rect x="0" y="175" width="400" height="10" fill="#9CA3AF" />
+      <rect x="0" y="185" width="400" height="4" fill="#4B5563" />
+      <rect x="25" y="185" width="10" height="35" fill="#6B7280" />
+      <rect x="105" y="185" width="10" height="35" fill="#6B7280" />
+      <rect x="185" y="185" width="10" height="35" fill="#6B7280" />
+      <rect x="265" y="185" width="10" height="35" fill="#6B7280" />
+      <rect x="345" y="185" width="10" height="35" fill="#6B7280" />
+
+      {/* Namo Bharat (RRTS) Train - Aerodynamic & Sleek */}
+      <g>
+        {/* Train Body */}
+        <path d="M 120 172 L 120 156 Q 130 156 135 156 L 225 156 Q 235 156 240 172 Z" fill="#E2E8F0" />
+        {/* Orange Identity Stripe */}
+        <path d="M 120 172 L 120 166 Q 130 166 135 166 L 225 166 Q 235 166 240 172 Z" fill="#F97316" />
+        {/* Sleek Windows */}
+        <rect x="135" y="159" width="15" height="5" rx="1" fill="#1E293B" />
+        <rect x="155" y="159" width="15" height="5" rx="1" fill="#1E293B" />
+        <rect x="175" y="159" width="15" height="5" rx="1" fill="#1E293B" />
+        <rect x="195" y="159" width="15" height="5" rx="1" fill="#1E293B" />
+        <rect x="215" y="159" width="15" height="5" rx="1" fill="#1E293B" />
+      </g>
+
+      {/* Green Belt & Hindon River Hint */}
+      <g>
+        <path d="M 0 215 Q 200 205 400 215 L 400 230 L 0 230 Z" fill="#1A3622" />
+        <circle cx="30" cy="210" r="15" fill="#204028" />
+        <circle cx="80" cy="215" r="18" fill="#2D5436" />
+        <circle cx="150" cy="212" r="20" fill="#204028" />
+        <circle cx="220" cy="216" r="18" fill="#2D5436" />
+        <circle cx="290" cy="210" r="16" fill="#204028" />
+        <circle cx="360" cy="215" r="19" fill="#2D5436" />
+      </g>
+
+      {/* Delhi-Meerut Expressway / Elevated Road */}
+      <path d="M 0 230 Q 200 220 400 230 L 400 280 L 0 280 Z" fill="#1A1A24" />
+      
+      {/* Light Trails (Speed/Raftaar) */}
+      <g filter="url(#glow)">
+        {/* Red Taillights moving away */}
+        <line x1="0" y1="245" x2="400" y2="245" stroke="#EF4444" strokeWidth="1.5" strokeDasharray="60 30 120 40" opacity="0.8" />
+        <line x1="0" y1="252" x2="400" y2="252" stroke="#EF4444" strokeWidth="2" strokeDasharray="40 80 200 20" opacity="0.9" />
+        
+        {/* White/Yellow Headlights moving toward */}
+        <line x1="0" y1="265" x2="400" y2="265" stroke="#FDE047" strokeWidth="2" strokeDasharray="100 50 40 90" opacity="0.9" />
+        <line x1="0" y1="272" x2="400" y2="272" stroke="#FEF08A" strokeWidth="1.5" strokeDasharray="30 100 150 40" opacity="0.8" />
+      </g>
+    </svg>
+  );
+}
+
+/* ================== AYODHYA GHATS (Avneesh's home) ================== */
+
+function AyodhyaIllustration() {
+  return (
+    <svg viewBox="0 0 400 280" xmlns="http://www.w3.org/2000/svg" className="city-illustration" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <linearGradient id="ayodhya-sky" x1="0" x2="0" y1="0" y2="1">
+          <stop offset="0%" stopColor="#FFB87A"/>
+          <stop offset="40%" stopColor="#FF8C5A"/>
+          <stop offset="80%" stopColor="#D4647A"/>
+          <stop offset="100%" stopColor="#7A2048"/>
+        </linearGradient>
+        <radialGradient id="ayodhya-sun" cx="0.7" cy="0.4">
+          <stop offset="0%" stopColor="#FFE5A0" stopOpacity="1"/>
+          <stop offset="60%" stopColor="#FFB85C" stopOpacity="0.6"/>
+          <stop offset="100%" stopColor="#FF8C5A" stopOpacity="0"/>
+        </radialGradient>
+        <linearGradient id="ayodhya-water" x1="0" x2="0" y1="0" y2="1">
+          <stop offset="0%" stopColor="#7A4A6A"/>
+          <stop offset="100%" stopColor="#3D1A2E"/>
+        </linearGradient>
+        <linearGradient id="ayodhya-ghat" x1="0" x2="0" y1="0" y2="1">
+          <stop offset="0%" stopColor="#D4A57A"/>
+          <stop offset="100%" stopColor="#7A4A2E"/>
+        </linearGradient>
+        <radialGradient id="diya-glow">
+          <stop offset="0%" stopColor="#FFE5A0" stopOpacity="1"/>
+          <stop offset="100%" stopColor="#FFB85C" stopOpacity="0"/>
+        </radialGradient>
+      </defs>
+
+      {/* Sky */}
+      <rect width="400" height="180" fill="url(#ayodhya-sky)"/>
+      {/* Sun glow */}
+      <ellipse cx="280" cy="100" rx="120" ry="80" fill="url(#ayodhya-sun)"/>
+      <circle cx="280" cy="100" r="32" fill="#FFE5A0" opacity="0.95"/>
+
+      {/* Birds */}
+      <path d="M60 70 q5 -4 10 0 q5 -4 10 0" fill="none" stroke="#3D1A2E" strokeWidth="1.5" opacity="0.6"/>
+      <path d="M90 60 q4 -3 8 0 q4 -3 8 0" fill="none" stroke="#3D1A2E" strokeWidth="1.2" opacity="0.5"/>
+      <path d="M40 90 q4 -3 8 0 q4 -3 8 0" fill="none" stroke="#3D1A2E" strokeWidth="1.2" opacity="0.5"/>
+
+      {/* Temple silhouettes - shikharas */}
+      <g fill="#3D1A2E" opacity="0.92">
+        {/* Main central shikhara (Kashi Vishwanath inspired) */}
+        <path d="M180 180 L180 140 Q180 100 195 80 Q200 70 205 80 Q220 100 220 140 L220 180 Z"/>
+        <circle cx="200" cy="74" r="4"/>
+        <rect x="198" y="60" width="4" height="14"/>
+
+        {/* Smaller shikhara left */}
+        <path d="M140 180 L140 150 Q140 124 152 110 Q156 104 160 110 Q172 124 172 150 L172 180 Z"/>
+        <circle cx="156" cy="106" r="3"/>
+
+        {/* Smaller shikhara right */}
+        <path d="M228 180 L228 152 Q228 128 240 116 Q244 110 248 116 Q260 128 260 152 L260 180 Z"/>
+        <circle cx="244" cy="112" r="3"/>
+
+        {/* Dome small */}
+        <path d="M100 180 L100 160 Q100 145 115 145 Q130 145 130 160 L130 180 Z"/>
+
+        {/* Buildings far right */}
+        <rect x="290" y="155" width="20" height="25"/>
+        <rect x="315" y="148" width="16" height="32"/>
+        <rect x="335" y="160" width="22" height="20"/>
+        <rect x="362" y="152" width="18" height="28"/>
+      </g>
+
+      {/* Ghats - stepped */}
+      <g fill="url(#ayodhya-ghat)">
+        <path d="M0 180 L400 180 L400 200 L0 200 Z"/>
+        <path d="M0 200 L400 200 L400 215 L0 215 Z" opacity="0.85"/>
+        <path d="M0 215 L400 215 L400 228 L0 228 Z" opacity="0.7"/>
+      </g>
+
+      {/* Water */}
+      <rect y="228" width="400" height="52" fill="url(#ayodhya-water)"/>
+
+      {/* Water ripples */}
+      <path d="M20 240 q15 -3 30 0 t30 0 t30 0 t30 0" fill="none" stroke="#FFE5A0" strokeWidth="0.6" opacity="0.5"/>
+      <path d="M180 250 q15 -3 30 0 t30 0 t30 0" fill="none" stroke="#FFE5A0" strokeWidth="0.6" opacity="0.4"/>
+      <path d="M40 262 q15 -3 30 0 t30 0 t30 0 t30 0" fill="none" stroke="#FFB85C" strokeWidth="0.6" opacity="0.4"/>
+
+      {/* Floating diyas on Ganga */}
+      <g>
+        <circle cx="80" cy="244" r="8" fill="url(#diya-glow)"/>
+        <ellipse cx="80" cy="244" rx="5" ry="2" fill="#8B4513"/>
+        <ellipse cx="80" cy="241" rx="2" ry="3" fill="#FFE5A0">
+          <animate attributeName="ry" values="3;3.5;3" dur="0.6s" repeatCount="indefinite"/>
+        </ellipse>
+      </g>
+      <g>
+        <circle cx="160" cy="252" r="9" fill="url(#diya-glow)"/>
+        <ellipse cx="160" cy="252" rx="5" ry="2" fill="#8B4513"/>
+        <ellipse cx="160" cy="249" rx="2" ry="3" fill="#FFE5A0">
+          <animate attributeName="ry" values="3;3.6;3" dur="0.5s" repeatCount="indefinite"/>
+        </ellipse>
+      </g>
+      <g>
+        <circle cx="250" cy="245" r="8" fill="url(#diya-glow)"/>
+        <ellipse cx="250" cy="245" rx="5" ry="2" fill="#8B4513"/>
+        <ellipse cx="250" cy="242" rx="2" ry="3" fill="#FFE5A0">
+          <animate attributeName="ry" values="3;3.4;3" dur="0.7s" repeatCount="indefinite"/>
+        </ellipse>
+      </g>
+      <g>
+        <circle cx="330" cy="255" r="9" fill="url(#diya-glow)"/>
+        <ellipse cx="330" cy="255" rx="5" ry="2" fill="#8B4513"/>
+        <ellipse cx="330" cy="252" rx="2" ry="3" fill="#FFE5A0">
+          <animate attributeName="ry" values="3;3.5;3" dur="0.55s" repeatCount="indefinite"/>
+        </ellipse>
+      </g>
+    </svg>
+  );
+}
+
+/* ================== RANGOLI DIVIDER ================== */
+
+function RangoliDivider() {
+  const ref = useRef(null);
+  const [inView, setInView] = useState(false);
+  useEffect(() => {
+    const el = ref.current; if (!el) return;
+    const obs = new IntersectionObserver(([e]) => { if (e.isIntersecting) { setInView(true); obs.disconnect(); }}, { threshold: 0.2 });
+    obs.observe(el); return () => obs.disconnect();
+  }, []);
+  return (
+    <div ref={ref} className={`rangoli-divider ${inView ? "in-view" : ""}`}>
+      <svg viewBox="0 0 280 50" xmlns="http://www.w3.org/2000/svg">
+        <g fill="none" stroke="#C9A84C" strokeWidth="1.2" strokeLinecap="round">
+          <line x1="0" y1="25" x2="90" y2="25"/>
+          <line x1="190" y1="25" x2="280" y2="25"/>
+          {/* Center lotus */}
+          <circle cx="140" cy="25" r="5" fill="#C9A84C"/>
+          {[...Array(8)].map((_,i) => {
+            const a = (i * 45) * Math.PI / 180;
+            const x1 = 140 + Math.cos(a) * 8;
+            const y1 = 25 + Math.sin(a) * 8;
+            const x2 = 140 + Math.cos(a) * 18;
+            const y2 = 25 + Math.sin(a) * 18;
+            return <path key={i} d={`M${x1} ${y1} Q${(x1+x2)/2 + Math.cos(a+Math.PI/2)*3} ${(y1+y2)/2 + Math.sin(a+Math.PI/2)*3} ${x2} ${y2} Q${(x1+x2)/2 - Math.cos(a+Math.PI/2)*3} ${(y1+y2)/2 - Math.sin(a+Math.PI/2)*3} ${x1} ${y1}`}/>;
+          })}
+          <circle cx="140" cy="25" r="22"/>
+          {/* Side ornaments */}
+          <circle cx="105" cy="25" r="3" fill="#C9A84C"/>
+          <circle cx="175" cy="25" r="3" fill="#C9A84C"/>
+          <circle cx="115" cy="25" r="2"/>
+          <circle cx="165" cy="25" r="2"/>
+          {/* End dots */}
+          <circle cx="20" cy="25" r="2" fill="#C9A84C"/>
+          <circle cx="260" cy="25" r="2" fill="#C9A84C"/>
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+/* ================== CURSOR SPARKLE TRAIL ================== */
+
+function CursorSparkle() {
+  useEffect(() => {
+    if (window.matchMedia("(pointer: coarse)").matches) return;
+    let last = 0;
+    const colors = ["#E5B935", "#FFE5A0", "#F2A6BD", "#FFD080", "#FFB85C"];
+    const onMove = (e) => {
+      const now = Date.now();
+      if (now - last < 70) return;
+      last = now;
+      const dot = document.createElement("div");
+      dot.className = "sparkle-dot";
+      dot.style.left = (e.clientX - 3) + "px";
+      dot.style.top = (e.clientY - 3) + "px";
+      dot.style.background = colors[Math.floor(Math.random() * colors.length)];
+      dot.style.color = dot.style.background;
+      document.body.appendChild(dot);
+      setTimeout(() => dot.remove(), 900);
+    };
+    window.addEventListener("mousemove", onMove, { passive: true });
+    return () => window.removeEventListener("mousemove", onMove);
+  }, []);
+  return null;
+}
+
+/* ================== MEHENDI PATTERN (for placeholders) ================== */
+
+function MehendiPattern() {
+  return (
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="gc-ph-mehendi">
+      <g fill="none" stroke="#7A2048" strokeWidth="1.2" strokeLinecap="round">
+        <circle cx="100" cy="100" r="60"/>
+        <circle cx="100" cy="100" r="40"/>
+        <circle cx="100" cy="100" r="20"/>
+        <circle cx="100" cy="100" r="6" fill="#C9A84C"/>
+        {[...Array(8)].map((_,i) => {
+          const a = (i * 45) * Math.PI / 180;
+          const x1 = 100 + Math.cos(a) * 20, y1 = 100 + Math.sin(a) * 20;
+          const x2 = 100 + Math.cos(a) * 60, y2 = 100 + Math.sin(a) * 60;
+          const mx = 100 + Math.cos(a) * 40, my = 100 + Math.sin(a) * 40;
+          return (
+            <g key={i}>
+              <path d={`M${x1} ${y1} Q${mx + Math.cos(a+Math.PI/2)*8} ${my + Math.sin(a+Math.PI/2)*8} ${x2} ${y2} Q${mx - Math.cos(a+Math.PI/2)*8} ${my - Math.sin(a+Math.PI/2)*8} ${x1} ${y1}`}/>
+              <circle cx={mx} cy={my} r="2.5" fill="#C9A84C"/>
+            </g>
+          );
+        })}
+        {[...Array(8)].map((_,i) => {
+          const a = ((i * 45) + 22.5) * Math.PI / 180;
+          const x = 100 + Math.cos(a) * 75, y = 100 + Math.sin(a) * 75;
+          return <circle key={"o"+i} cx={x} cy={y} r="3" fill="#C9A84C"/>;
+        })}
+        {[...Array(16)].map((_,i) => {
+          const a = (i * 22.5) * Math.PI / 180;
+          const x = 100 + Math.cos(a) * 90, y = 100 + Math.sin(a) * 90;
+          return <circle key={"d"+i} cx={x} cy={y} r="1.5" fill="#7A2048"/>;
+        })}
+      </g>
+    </svg>
+  );
+}
+
+/* ================== GALLERY CAROUSEL (3D coverflow) ================== */
+
+function GalleryCarousel({ photos }) {
+  const [current, setCurrent] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const total = photos.length;
+
+  useEffect(() => {
+    if (paused || total <= 1) return;
+    const id = setInterval(() => setCurrent(c => (c + 1) % total), 4000);
+    return () => clearInterval(id);
+  }, [paused, total]);
+
+  const go = (delta) => setCurrent(c => (c + delta + total) % total);
+
+  const computeTransform = (i) => {
+    let offset = i - current;
+    // shortest-path wrap for smooth circular motion
+    if (offset > total / 2) offset -= total;
+    if (offset < -total / 2) offset += total;
+    const abs = Math.abs(offset);
+    if (abs > 2) return { display: "none" };
+    const isMobile = window.innerWidth < 780;
+    const xStep = isMobile ? 130 : 200;
+    const zStep = isMobile ? 140 : 200;
+    const rot = offset * (isMobile ? -25 : -35);
+    const scale = abs === 0 ? 1 : Math.max(0.7, 0.92 - abs * 0.12);
+    const opacity = abs === 0 ? 1 : Math.max(0.35, 0.7 - abs * 0.18);
+    return {
+      transform: `translate3d(${offset * xStep}px, 0, ${-abs * zStep}px) rotateY(${rot}deg) scale(${scale})`,
+      opacity,
+      zIndex: 100 - abs,
+    };
+  };
+
+  return (
+    <div>
+      <div className="gallery-3d" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
+        <div className="gallery-stage">
+          {photos.map((p, i) => {
+            const style = computeTransform(i);
+            const isCenter = i === current;
+            if (p.placeholder) {
+              return (
+                <div key={i} className={`gallery-card placeholder ${isCenter ? "center" : ""}`} style={style}>
+                  <MehendiPattern/>
+                  <div className="gc-ph-hindi">{p.hindi}</div>
+                  <div className="gc-ph-eng">{p.eng}</div>
+                  <div className="gc-ph-soon">memories coming soon</div>
+                </div>
+              );
+            }
+            return (
+              <div key={i} className={`gallery-card ${isCenter ? "center" : ""}`} style={style}>
+                <img src={p.src} alt={p.caption || ""} loading="lazy"/>
+                {p.caption && <div className="gc-cap">{p.caption}</div>}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      <div className="gallery-controls">
+        <button className="gc-arrow" onClick={() => go(-1)} aria-label="Previous">‹</button>
+        <div className="gc-dots">
+          {photos.map((_, i) => (
+            <button key={i} className={`gc-dot ${i === current ? "active" : ""}`} onClick={() => setCurrent(i)} aria-label={`Photo ${i+1}`}/>
+          ))}
+        </div>
+        <button className="gc-arrow" onClick={() => go(1)} aria-label="Next">›</button>
+        <button className="gc-pause" onClick={() => setPaused(p => !p)}>{paused ? "▶ Play" : "❚❚ Pause"}</button>
+      </div>
+    </div>
+  );
+}
+
+/* ================== EVENT FLIP CARD ================== */
+
+function EventFlipCard({ ev, eventDate }) {
+  const [flipped, setFlipped] = useState(false);
+  const [t, setT] = useState({ d:0, h:0, status:"upcoming" });
+
+  useEffect(() => {
+    const tick = () => {
+      const diff = eventDate - new Date();
+      if (diff <= -86400000) { setT({ d:0, h:0, status:"past" }); return; }
+      if (diff <= 0) { setT({ d:0, h:0, status:"live" }); return; }
+      const d = Math.floor(diff/864e5);
+      const h = Math.floor((diff%864e5)/36e5);
+      setT({ d, h, status: d < 7 ? "soon" : "upcoming" });
+    };
+    tick(); const id = setInterval(tick, 60000); return () => clearInterval(id);
+  }, [eventDate]);
+
+  const cdText = t.status === "live" ? "✨ Today" :
+                 t.status === "past" ? "Completed" :
+                 t.d > 0 ? `In ${t.d}d ${t.h}h` : `In ${t.h}h`;
+
+  return (
+    <div className={`event-flip ${flipped ? "flipped" : ""}`} onClick={() => setFlipped(f => !f)}>
+      <div className="event-face front">
+        <div className="ev-icon">{ev.icon}</div>
+        <div className="ev-hindi">{ev.hindi}</div>
+        <div className="ev-eng">{ev.eng}</div>
+        <div className="ev-date">{ev.date}</div>
+        <div className="ev-time">{ev.time}</div>
+        <div className={`ev-mini-countdown ${t.status === "live" ? "live" : t.status === "past" ? "past" : ""}`}>{cdText}</div>
+        <div className="ev-flip-hint">Tap for details ↺</div>
+      </div>
+      <div className="event-face back">
+        <div className="ev-back-title">{ev.eng}</div>
+        <div className="ev-back-row">
+          <span className="ev-back-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+          <span className="ev-back-text"><strong>{ev.date}</strong><br/>{ev.time}</span>
+        </div>
+        <div className="ev-back-row">
+          <span className="ev-back-icon">📍</span>
+          <span className="ev-back-text"><strong>3AG Hotel & Resort</strong><br/>Ayodhya</span>
+        </div>
+        <div className="ev-back-row">
+          <span className="ev-back-icon">👗</span>
+          <span className="ev-back-text"><strong>Dress Code</strong><br/>{ev.dress}</span>
+        </div>
+        <div className="ev-back-row">
+          <span className="ev-back-icon">✨</span>
+          <span className="ev-back-text">{ev.desc}</span>
+        </div>
+        <div className="ev-flip-hint">Tap to flip back ↺</div>
+      </div>
+    </div>
+  );
+}
+
+/* ================== FAMILIES ================== */
+
+const FAMILIES = {
+  bride: {
+    surname: "Sharma",
+    placeHindi: "गाजियाबाद",
+    placeEng: "Ghaziabad · Gateway of UP",
+    parents: ["Smt. Asha", "Late Shri Vijay Sharma"],
+    person: "Akanksha",
+    relation: "their beloved daughter",
+    emblem: "श्री",
+  },
+  groom: {
+    surname: "Rai",
+    placeHindi: "अयोध्या",
+    placeEng: "Ayodhya · City of Ram",
+    parents: ["Smt. Neelam", "Shri Karamveer Rai"],
+    person: "Avneesh",
+    relation: "their beloved son",
+    emblem: "श्री",
+  },
+};
+
+function Families() {
+  const renderFamily = (f) => (
+    <div className="family-card">
+      <span className="family-corner tl"/><span className="family-corner tr"/>
+      <span className="family-corner bl"/><span className="family-corner br"/>
+      <div className="family-emblem">{f.emblem}</div>
+      <div className="family-eng">The {f.surname} Family</div>
+      <div className="family-place">{f.placeHindi} · {f.placeEng}</div>
+      <div className="family-rule"/>
+      <div className="family-host-label">together with all their loved ones</div>
+      <div className="family-name">{f.parents[0]}</div>
+      <div className="family-amp">&amp;</div>
+      <div className="family-name">{f.parents[1]}</div>
+      <div className="family-of">request the honour of your presence at the wedding of</div>
+      <div className="family-person">{f.person}</div>
+      <div className="family-relation">{f.relation}</div>
+    </div>
+  );
+
+  return (
+    <React.Fragment>
+      <div className="families-shlok">
+        ॥ त्वमेव माता च पिता त्वमेव, त्वमेव बन्धुश्च सखा त्वमेव ॥
+        <span className="sh-meaning">"You alone are mother and father, You alone are kin and friend — and so we begin, with gratitude to all who have shaped us."</span>
+      </div>
+
+      <div className="families-grid">
+        <FadeIn>{renderFamily(FAMILIES.bride)}</FadeIn>
+        <div className="family-bridge">
+          <div className="fb-line"/>
+          <div className="fb-symbol">ॐ</div>
+          <div className="fb-line"/>
+        </div>
+        <FadeIn delay={150}>{renderFamily(FAMILIES.groom)}</FadeIn>
+      </div>
+
+      <FadeIn delay={250}>
+        <div className="host-statement">
+          on Wednesday, the First of July Two Thousand and Twenty-Six<br/>
+          at 3AG Hotel & Resort, Ayodhya
+        </div>
+      </FadeIn>
+
+      <FadeIn delay={350}>
+        <div className="letter-card">
+          <div className="letter-header">A note from us</div>
+          <div className="letter-subhead">— Akanksha &amp; Avneesh —</div>
+          <div className="letter-body">
+            <p>Dearest one,</p>
+            <p>
+              Words feel small for the joy in our hearts as we write this. From the ghats of the Ganga to the shores of the Bhojtal,
+              two families have come together — and now, with the blessings of those who came before us and the love of those who walk beside us,
+              two souls become one.
+            </p>
+            <p>
+              You have been part of our story in ways big and small. Whether through a shared laugh, a quiet conversation, or simply a steady presence —
+              you are why this day will mean what it means.
+            </p>
+            <p>
+              Come bless us. Come dance with us. Come be part of the moment we will carry, always.
+            </p>
+            <p>Your presence is the greatest gift of all.</p>
+          </div>
+          <div className="letter-signature">
+            <div className="letter-sig-script">Akanksha &amp; Avneesh</div>
+            <div className="letter-sig-place">Ghaziabad · Ayodhya · Jul 2026</div>
+          </div>
+        </div>
+      </FadeIn>
+    </React.Fragment>
+  );
+}
+
+/* ================== INTRO ================== */
+
+function Intro({ onDone }) {
+  const [done, setDone] = useState(false);
+  const [curtainOpen, setCurtainOpen] = useState(false);
+  const [curtainGone, setCurtainGone] = useState(false);
+
+  useEffect(() => {
+    if (sessionStorage.getItem("intro-shown")) {
+      onDone();
+      setDone(true);
+      setCurtainGone(true);
+      return;
+    }
+    const t1 = setTimeout(() => setDone(true), 3500);
+    const t2 = setTimeout(() => setCurtainOpen(true), 3700);
+    const t3 = setTimeout(() => { setCurtainGone(true); onDone(); sessionStorage.setItem("intro-shown", "1"); }, 5200);
+    return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); };
+  }, [onDone]);
+
+  const skip = () => {
+    setDone(true);
+    setCurtainOpen(true);
+    setTimeout(() => { setCurtainGone(true); onDone(); sessionStorage.setItem("intro-shown", "1"); }, 1400);
+  };
+
+  return (
+    <React.Fragment>
+      <div className={`intro ${done ? "done" : ""}`}>
+        <button className="intro-skip" onClick={skip}>Skip ›</button>
+        <MandalaSVG size={300} />
+        <div className="intro-om">ॐ</div>
+        <div className="intro-text">
+          <div className="intro-names">Akanksha &amp; Avneesh</div>
+          <div className="intro-tagline">A Sacred Union</div>
+        </div>
+      </div>
+      <div className={`curtain ${curtainOpen ? "open" : ""} ${curtainGone ? "gone" : ""}`}>
+        <div className="curtain-l"/><div className="curtain-r"/>
+      </div>
+    </React.Fragment>
+  );
+}
+
+/* ================== PARALLAX BG ================== */
+
+function ParallaxBg() {
+  const [scroll, setScroll] = useState(0);
+  useEffect(() => {
+    const onS = () => setScroll(window.scrollY);
+    window.addEventListener("scroll", onS, { passive: true });
+    return () => window.removeEventListener("scroll", onS);
+  }, []);
+  return (
+    <div className="parallax-bg">
+      <div className="bg-mandala bg-mandala-1" style={{transform:`translateY(${scroll * 0.15}px) rotate(${scroll * 0.05}deg)`}}>
+        <MandalaSVG size={500}/>
+      </div>
+      <div className="bg-mandala bg-mandala-2" style={{transform:`translateY(${-scroll * 0.1}px) rotate(${-scroll * 0.03}deg)`}}>
+        <MandalaSVG size={600}/>
+      </div>
+      <div className="bg-mandala bg-mandala-3" style={{transform:`translateY(${scroll * 0.08}px) rotate(${scroll * 0.04}deg)`}}>
+        <MandalaSVG size={450}/>
+      </div>
+    </div>
+  );
+}
+
+/* ================== COUNTDOWN ================== */
+
+function Countdown({ target }) {
+  const [t, setT] = useState({ d:0, h:0, m:0, s:0, isLive:false });
+  useEffect(() => {
+    const tick = () => {
+      const diff = new Date(target) - new Date();
+      if (diff <= 0) { setT(s => ({...s, isLive:true})); return; }
+      setT({ d: Math.floor(diff/864e5), h: Math.floor((diff%864e5)/36e5), m: Math.floor((diff%36e5)/6e4), s: Math.floor((diff%6e4)/1e3), isLive:false });
+    };
+    tick(); const id = setInterval(tick, 1000); return () => clearInterval(id);
+  }, [target]);
+
+  if (t.isLive) return <div className="cd-live-badge">✨ It's Happening Today ✨</div>;
+
+  return (
+    <div className="countdown">
+      {[["days",t.d],["hours",t.h],["min",t.m],["sec",t.s]].map(([l,v]) => (
+        <div key={l} className="cd-unit">
+          <span className="cd-num">{String(v).padStart(2,"0")}</span>
+          <span className="cd-label">{l}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+/* ================== DIVIDER ================== */
+
+function Divider() {
+  return (
+    <div className="divider">
+      <span className="div-line"/>
+      <span className="div-ornament">❋</span>
+      <span className="div-line"/>
+    </div>
+  );
+}
+
+/* ================== PETALS ================== */
+
+function Petals() {
+  const petals = Array.from({length:24},(_,i) => ({
+    id:i, left:`${Math.random()*100}%`,
+    delay:`${Math.random()*14}s`, dur:`${9+Math.random()*11}s`,
+    sz:7+Math.random()*11, op:0.12+Math.random()*0.18,
+    col:["#FADCE6","#F2A6BD","#FFD6E0","#FFF0E8","#E8C4D0","#F5A8C0"][i%6],
+  }));
+  return (
+    <div className="petals-container">
+      {petals.map(p => (
+        <div key={p.id} className="petal" style={{
+          left:p.left, width:p.sz, height:p.sz*1.3,
+          background:p.col, "--op":p.op,
+          animationDuration:p.dur, animationDelay:p.delay,
+        }}/>
+      ))}
+    </div>
+  );
+}
+
+/* ================== FLOATING DIYAS ================== */
+
+function FloatingDiyas() {
+  const diyas = Array.from({length: 6}, (_, i) => ({
+    id: i,
+    left: `${15 + i * 14 + Math.random() * 8}%`,
+    delay: `${i * 4 + Math.random() * 6}s`,
+    dur: `${22 + Math.random() * 10}s`,
+    drift: `${(Math.random() - 0.5) * 80}px`,
+    size: 24 + Math.random() * 12,
+  }));
+  return (
+    <div className="diyas-container" aria-hidden="true">
+      {diyas.map(d => (
+        <div key={d.id} className="diya-float" style={{
+          left: d.left,
+          animationDelay: d.delay,
+          animationDuration: d.dur,
+          width: d.size,
+          height: d.size,
+          "--drift": d.drift,
+        }}>
+          <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id={`dg-${d.id}`}>
+                <stop offset="0%" stopColor="#FFE5A0" stopOpacity="1"/>
+                <stop offset="100%" stopColor="#FFB85C" stopOpacity="0"/>
+              </radialGradient>
+              <radialGradient id={`df-${d.id}`}>
+                <stop offset="0%" stopColor="#FFFAE0"/>
+                <stop offset="60%" stopColor="#FFD080"/>
+                <stop offset="100%" stopColor="#FF8C2A"/>
+              </radialGradient>
+            </defs>
+            {/* Glow */}
+            <circle cx="16" cy="14" r="14" fill={`url(#dg-${d.id})`}/>
+            {/* Diya bowl */}
+            <path d="M8 20 Q16 26 24 20 L22 16 L10 16 Z" fill="#8B4513" stroke="#C9A84C" strokeWidth="0.5"/>
+            <ellipse cx="16" cy="16" rx="6" ry="1" fill="#5A2A0A"/>
+            {/* Flame */}
+            <g className="diya-flame">
+              <ellipse cx="16" cy="11" rx="2.5" ry="5" fill={`url(#df-${d.id})`}/>
+              <ellipse cx="16" cy="9" rx="1" ry="2" fill="#FFFAE0"/>
+            </g>
+          </svg>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+/* ================== FADE-IN ================== */
+
+function FadeIn({ children, delay=0 }) {
+  const ref = useRef(null);
+  const [visible, setVisible] = useState(false);
+  useEffect(() => {
+    const el = ref.current; if(!el) return;
+    const obs = new IntersectionObserver(([e]) => { if(e.isIntersecting){setVisible(true);obs.disconnect()} }, {threshold:0.12});
+    obs.observe(el); return () => obs.disconnect();
+  }, []);
+  return (
+    <div ref={ref} className={`fade-in ${visible?"visible":""}`} style={{transitionDelay:`${delay}ms`}}>
+      {children}
+    </div>
+  );
+}
+
+/* ================== MUSIC TOGGLE ================== */
+
+function MusicToggle() {
+  const [playing, setPlaying] = useState(false);
+  const [hasError, setHasError] = useState(false);
+
+  // Sync UI with actual audio state (works whether music starts via toggle, autoplay, or first-interaction)
+  useEffect(() => {
+    const audio = document.getElementById("bg-music");
+    if (!audio) return;
+    const onPlay = () => setPlaying(true);
+    const onPause = () => setPlaying(false);
+    audio.addEventListener("play", onPlay);
+    audio.addEventListener("pause", onPause);
+    return () => {
+      audio.removeEventListener("play", onPlay);
+      audio.removeEventListener("pause", onPause);
+    };
+  }, []);
+
+  // Auto-start music: try immediately, then fall back to first user interaction
+  useEffect(() => {
+    const audio = document.getElementById("bg-music");
+    if (!audio) return;
+    let armed = true;
+
+    const tryStart = () => {
+      if (!armed || !audio.paused) return;
+      audio.volume = 0.35;
+      audio.play().then(() => { armed = false; }).catch(() => {});
+    };
+
+    // Attempt 1: try immediately (works if browser allows)
+    const t1 = setTimeout(tryStart, 800);
+
+    // Attempt 2: start on first user gesture (covers strict browsers like iOS/Safari)
+    const onGesture = () => { tryStart(); };
+    const events = ["click", "touchstart", "keydown", "scroll"];
+    events.forEach(e => document.addEventListener(e, onGesture, { passive: true }));
+
+    return () => {
+      armed = false;
+      clearTimeout(t1);
+      events.forEach(e => document.removeEventListener(e, onGesture));
+    };
+  }, []);
+
+  const toggle = () => {
+    const audio = document.getElementById("bg-music");
+    if (!audio) return;
+    if (playing) {
+      audio.pause();
+    } else {
+      audio.volume = 0.35;
+      audio.play().catch(() => setHasError(true));
+    }
+  };
+
+  return (
+    <button className={`music-toggle ${playing ? "playing" : ""}`} onClick={toggle} aria-label="Toggle music">
+      <span className="music-tooltip">
+        {hasError ? "Add audio file" : (playing ? "Pause music" : "Play music")}
+      </span>
+      {playing ? (
+        <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="2"/><circle cx="12" cy="12" r="2" fill="currentColor"/><path d="M12 4 L12 7 M12 17 L12 20 M4 12 L7 12 M17 12 L20 12" stroke="currentColor" strokeWidth="1.5" fill="none"/></svg>
+      ) : (
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 5v14l11-7z"/></svg>
+      )}
+    </button>
+  );
+}
+
+/* ================== RSVP FORM ================== */
+
+function RSVPForm() {
+  const [data, setData] = useState({ name:"", contact:"", guests:"1", events:[], arrivalTime:"", travelMode:"", message:"" });
+  const [status, setStatus] = useState("idle"); // idle, sending, success, error
+
+  const toggleEvent = (ev) => {
+    setData(d => ({...d, events: d.events.includes(ev) ? d.events.filter(e => e !== ev) : [...d.events, ev]}));
+  };
+
+  const submit = async (e) => {
+    e.preventDefault();
+    if (!data.name) return;
+    setStatus("sending");
+
+    if (FORMSPREE_ID === "YOUR_FORMSPREE_ID") {
+      // Demo mode — no real submission
+      setTimeout(() => { setStatus("success"); shootConfetti(); }, 800);
+      return;
+    }
+
+    try {
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify(data),
+      });
+      // Formspree returns 200, 202, or 204 on success — anything 2xx counts
+      if (res.status >= 200 && res.status < 300) {
+        setStatus("success");
+        shootConfetti();
+      } else {
+        const errText = await res.text().catch(() => "");
+        console.error("Formspree error:", res.status, errText);
+        setStatus("error");
+      }
+    } catch (err) {
+      console.error("Network error:", err);
+      setStatus("error");
+    }
+  };
+
+  if (status === "success") {
+    return (
+      <div className="rsvp-success">
+        <div className="rsvp-success-icon">🎉</div>
+        <div className="rsvp-success-title">Thank You!</div>
+        <div className="rsvp-success-text">
+          Your RSVP has been received with love.<br/>
+          We can't wait to celebrate with you.
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <form onSubmit={submit}>
+      <div className="form-row">
+        <label className="form-label">Your Name *</label>
+        <input className="form-input" required value={data.name} onChange={e => setData({...data, name:e.target.value})} placeholder="Full name" />
+      </div>
+      <div className="form-row">
+        <label className="form-label">Phone Number</label>
+        <input className="form-input" value={data.contact} onChange={e => setData({...data, contact:e.target.value})} placeholder="Mobile number" />
+      </div>
+      <div className="form-row">
+        <label className="form-label">Number of Guests</label>
+        <select className="form-select" value={data.guests} onChange={e => setData({...data, guests:e.target.value})}>
+          {[1,2,3,4,5,6,7,8].map(n => <option key={n} value={n}>{n} {n === 1 ? "person" : "people"}</option>)}
+        </select>
+      </div>
+      <div className="form-row">
+        <label className="form-label">Events You'll Attend</label>
+        <div className="form-checkboxes">
+          {EVENTS.map(ev => (
+            <label key={ev.eng} className={`form-check ${data.events.includes(ev.eng) ? "checked" : ""}`}>
+              <input type="checkbox" checked={data.events.includes(ev.eng)} onChange={() => toggleEvent(ev.eng)} />
+              {ev.eng}
+            </label>
+          ))}
+        </div>
+      </div>
+      <div className="form-row">
+        <label className="form-label">When do you expect to arrive in Ayodhya?</label>
+        <select className="form-select" value={data.arrivalTime} onChange={e => setData({...data, arrivalTime:e.target.value})}>
+          <option value="">Select arrival time</option>
+          <option>Before 10:00 AM</option>
+          <option>10:00 AM – 12:00 PM</option>
+          <option>12:00 PM – 03:00 PM</option>
+          <option>03:00 PM – 06:00 PM</option>
+          <option>After 06:00 PM</option>
+          <option>Not Sure Yet</option>
+        </select>
+      </div>
+      <div className="form-row">
+        <label className="form-label">How will you be travelling?</label>
+        <select className="form-select" value={data.travelMode} onChange={e => setData({...data, travelMode:e.target.value})}>
+          <option value="">Select mode of travel</option>
+          <option>Personal Vehicle</option>
+          <option>Train</option>
+          <option>Flight</option>
+          <option>Bus</option>
+          <option>Taxi / Cab</option>
+          <option>Not Decided Yet</option>
+        </select>
+      </div>
+      <div className="form-row">
+        <label className="form-label">A Note for the Couple</label>
+        <textarea className="form-textarea" value={data.message} onChange={e => setData({...data, message:e.target.value})} placeholder="Blessings, wishes, or a song request..." />
+      </div>
+      <button className="form-submit" type="submit" disabled={status === "sending"}>
+        {status === "sending" ? "Sending..." : "Send RSVP with Love"}
+      </button>
+      {status === "error" && (
+        <div className="rsvp-note" style={{color:"var(--maroon)"}}>Something went wrong. Please try again or WhatsApp us directly.</div>
+      )}
+      <div className="rsvp-note">Please RSVP by April 25, 2026</div>
+    </form>
+  );
+}
+
+/* ================== MEMORIES (PHOTO UPLOAD) ================== */
+
+function Memories() {
+  const githubIssueUrl = `${REPO_URL}/issues/new?title=Memory%20from%20%5BYour%20Name%5D&labels=guest-photos&body=Hi%20Akanksha%20%26%20Avneesh!%20Here%20are%20some%20memories%20I%27d%20like%20to%20share:%20%0A%0A%5BDrag%20%26%20drop%20your%20photos%20here%2C%20then%20click%20Submit%20at%20the%20bottom%5D%0A%0AWith%20love%2C%0A%5BYour%20name%5D`;
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi! Sharing a memory for your wedding album 💕")}`;
+
+  return (
+    <React.Fragment>
+      <div className="memories-intro">
+        Every photo from you becomes part of our forever. Whether it's a candid from the dance floor,
+        a heartfelt selfie, or a sweet moment you captured — please share. Pick whichever method is easiest for you.
+      </div>
+      <div className="memories-grid">
+        <div className="memory-card">
+          <div className="mem-icon">☁️</div>
+          <div className="mem-title">Google Drive Album</div>
+          <div className="mem-desc">
+            Easiest for everyone. Upload photos &amp; videos directly to our shared #Aviksha album.
+          </div>
+          <a className="mem-button primary" href={DRIVE_UPLOAD_URL} target="_blank" rel="noopener noreferrer">Open Album</a>
+        </div>
+        <div className="memory-card">
+          <div className="mem-icon">💬</div>
+          <div className="mem-title">WhatsApp</div>
+          <div className="mem-desc">
+            Send your photos &amp; videos straight to us — quick, simple, and they arrive instantly.
+          </div>
+          <a className="mem-button" href={whatsappUrl} target="_blank" rel="noopener noreferrer">Send on WhatsApp</a>
+        </div>
+        <div className="memory-card">
+          <div className="mem-icon">🐙</div>
+          <div className="mem-title">Memory Wall</div>
+          <div className="mem-desc">
+            For our tech-loving friends — drag your photos into a GitHub Issue and they'll be saved forever in our repo.
+          </div>
+          <a className="mem-button" href={githubIssueUrl} target="_blank" rel="noopener noreferrer">Open Memory Wall</a>
+        </div>
+      </div>
+    </React.Fragment>
+  );
+}
+
+/* ================== MAIN APP ================== */
+
+function SchedulePopup({ show, onClose }) {
+  if (!show) return null;
+  return (
+    <div className="sched-popup-overlay" onClick={onClose}>
+      <div className="sched-popup-card" onClick={e => e.stopPropagation()}>
+        <button className="sched-popup-close" onClick={onClose} aria-label="Close">×</button>
+        <div className="sched-popup-icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#7A2048" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+        <h3 className="sched-popup-title">Wedding Schedule</h3>
+        <div className="sched-popup-hindi">कार्यक्रम सूची</div>
+        <p className="sched-popup-text">
+          Download the complete schedule with all event timings for our three days of celebrations.
+        </p>
+        <a
+          href="images/Aviksha_Guest_Schedule.pdf"
+          download="Akanksha-Avneesh-Wedding-Schedule.pdf"
+          className="sched-popup-btn"
+          onClick={onClose}
+        >
+          📥&nbsp; Click here for Schedule
+        </a>
+        <div className="sched-popup-note">PDF · 1 page · Tap to download</div>
+      </div>
+    </div>
+  );
+}
+
+function ScheduleFab({ onClick }) {
+  return (
+    <button className="sched-fab" onClick={onClick} aria-label="Open schedule">
+      <span className="sched-fab-tooltip">View Schedule</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    </button>
+  );
+}
+
+function App() {
+  const [introDone, setIntroDone] = useState(false);
+  const [active, setActive] = useState("Home");
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [showSchedule, setShowSchedule] = useState(false);
+  const refs = useRef({});
+
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 30);
+      const tops = SECTIONS.map(s => {
+        const el = refs.current[s];
+        return el ? {s, t:el.getBoundingClientRect().top} : null;
+      }).filter(Boolean);
+      if (tops.length === 0) return;
+      const cur = tops.reduce((a,b) => Math.abs(b.t-140) < Math.abs(a.t-140) ? b : a);
+      if(cur) setActive(cur.s);
+    };
+    window.addEventListener("scroll", onScroll, {passive:true});
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  // Auto-show schedule popup on first visit, ~1.5s after intro completes
+  useEffect(() => {
+    if (!introDone) return;
+    let dismissed = false;
+    try { dismissed = localStorage.getItem("aviksha-sched-shown") === "1"; } catch (e) {}
+    if (dismissed) return;
+    const timer = setTimeout(() => setShowSchedule(true), 2500);
+    return () => clearTimeout(timer);
+  }, [introDone]);
+
+  const closeSchedule = () => {
+    setShowSchedule(false);
+    try { localStorage.setItem("aviksha-sched-shown", "1"); } catch (e) {}
+  };
+
+  const scrollTo = (s) => {
+    refs.current[s]?.scrollIntoView({behavior:"smooth", block:"start"});
+    setMenuOpen(false);
+  };
+
+  return (
+    <React.Fragment>
+      <Intro onDone={() => setIntroDone(true)} />
+      <div className="marigold-strip" aria-hidden="true"/>
+      <ParallaxBg/>
+      <Petals/>
+      <FloatingDiyas/>
+      <CursorSparkle/>
+      <MusicToggle/>
+      <ScheduleFab onClick={() => setShowSchedule(true)} />
+      <SchedulePopup show={showSchedule} onClose={closeSchedule} />
+
+      {/* NAV */}
+      <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
+        <div className="nav-inner">
+          <button className="nav-brand" onClick={() => scrollTo("Home")}>
+            <span className="hash">#</span>Aviksha
+          </button>
+          <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu">
+            <span/><span/><span/>
+          </button>
+          <ul className={`nav-links ${menuOpen?"show":""}`}>
+            {SECTIONS.map(s => (
+              <li key={s}>
+                <button className={`nav-link ${active===s?"active":""}`} onClick={() => scrollTo(s)}>{s}</button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </nav>
+
+      {/* HERO */}
+      <section className="hero" ref={el => refs.current["Home"]=el}>
+        <div className="sri-yantra-bg"><SriYantra/></div>
+        <div className="hero-deco hero-deco-tl">ॐ</div>
+        <div className="hero-deco hero-deco-br">❀</div>
+
+        <div className="hero-om">ॐ</div>
+        <div className="hero-ganesh">॥ श्री गणेशाय नमः ॥</div>
+        <div className="hero-shloka">
+          मांगल्यतन्तुनानेन मम जीवनहेतुना ।<br/>
+          कण्ठे बध्नामि सुभगे सञ्जीव शरदः शतम् ॥
+        </div>
+        <div className="hero-meaning">
+          "I tie this sacred thread of marriage around your neck, O maiden,<br/>
+          that you may live a hundred autumns with me."
+        </div>
+        <Divider/>
+        <div className="hero-invite">With the blessings of the Almighty</div>
+        <div className="hero-subtitle">We cordially invite you to celebrate the auspicious union of</div>
+
+        <div className="hero-name-script">Akanksha</div>
+        <div className="hero-parents">D/O Smt. Asha &amp; Late Shri Vijay Sharma</div>
+
+        <div className="hero-amp">&amp;</div>
+
+        <div className="hero-name-script">Avneesh</div>
+        <div className="hero-parents">S/O Smt. Neelam &amp; Shri Karamveer Rai</div>
+
+        <div className="hero-date-block">
+          <Divider/>
+          <div className="hero-date-label">Save the Date</div>
+          <div className="hero-date">Jul 01, 2026</div>
+          <div className="hero-hindi-date">आषाढ़ कृष्ण द्वितीया, विक्रम संवत् २०८३</div>
+          <div className="hero-venue-link">📍 3AG Hotel & Resort, Ayodhya</div>
+        </div>
+        <Countdown target={WEDDING_DATE}/>
+        <div className="hero-scroll-hint">Scroll to Explore ↓</div>
+      </section>
+
+      {/* STORY */}
+      <section className="section-padding story-section" ref={el => refs.current["Story"]=el}>
+        <div className="section-script">our</div>
+        <div className="section-title">Story</div>
+        <div className="section-subtitle">How two paths became one</div>
+        <Divider/>
+        <div className="timeline">
+          {STORY.map((s,i) => (
+            <FadeIn key={i} delay={i*80}>
+              <div className="tl-item">
+                <div className="tl-year">{s.year}</div>
+                <div className="tl-title">{s.title}</div>
+                <div className="tl-text">{s.text}</div>
+              </div>
+            </FadeIn>
+          ))}
+        </div>
+      </section>
+
+      {/* TWO CITIES — GHAZIABAD x AYODHYA */}
+      <section className="section-padding cities-section" ref={el => refs.current["Cities"]=el}>
+        <div className="section-script">two cities</div>
+        <div className="section-title">One Sacred Union</div>
+        <div className="section-subtitle">Where traditions unite heart</div>
+        <RangoliDivider/>
+        <div className="cities-intro">
+          A daughter of <span className="city-name">Ghaziabad</span> — where dreams, laughter, and cherished memories found a home.
+          A son of <span className="city-name">Ayodhya</span> — where faith, heritage, and blessings have flourished for centuries.
+          Two ancient cities. Two sacred rivers of tradition. One love story now writing its first chapter.
+        </div>
+
+        <div className="cities-grid">
+          <FadeIn>
+            <div className="city-panel">
+              <GhaziabadIllustration/>
+              <div className="city-content">
+                <div className="city-hindi">गाजियाबाद</div>
+                <div className="city-eng">Ghaziabad</div>
+                <div className="city-tagline">Gateway of UP</div>
+                <div className="city-person">Akanksha</div>
+                <div className="city-relation">D/O Smt. Asha &amp; Late Shri Vijay Sharma</div>
+                <div className="city-quote">
+                सखे सप्तपदा भव ।<br/>
+                सखायौ सप्तपदा बभूव ।
+              </div>
+                <div className="city-quote-meaning">
+                  "Having taken these seven steps together,<br/>let us become lifelong companions."
+                </div>
+              </div>
+            </div>
+          </FadeIn>
+
+          <div className="city-bridge">
+            <div className="bridge-line"/>
+            <div className="bridge-symbol">❋</div>
+            <div className="bridge-line"/>
+          </div>
+
+          <FadeIn delay={200}>
+            <div className="city-panel">
+              <AyodhyaIllustration/>
+              <div className="city-content">
+                <div className="city-hindi">अयोध्या</div>
+                <div className="city-eng">Ayodhya · City of Ram</div>
+                <div className="city-tagline">A Timeless Journey of Faith</div>
+                <div className="city-person">Avneesh</div>
+                <div className="city-relation">S/O Smt. Rajkumari &amp; Shri Kailash Tiwari</div>
+                <div className="city-quote">
+                  धर्मे च अर्थे च कामे च नातिचरामि ।<br/>
+                  सर्वदा त्वया सह वर्तिष्ये |
+                </div>
+                <div className="city-quote-meaning">
+                  "In duty, in prosperity, in love,<br/>I shall walk beside you always."
+                </div>
+              </div>
+            </div>
+          </FadeIn>
+        </div>
+
+        <FadeIn delay={300}>
+          <div className="cities-meeting">
+            <div className="meeting-quote">Two cities, one destiny.</div>
+            <div className="meeting-text">
+              Rooted in tradition, blessed by family, and brought together by destiny, two souls from Ayodhya and Ghaziabad now begin their forever together.
+            </div>
+          </div>
+        </FadeIn>
+      </section>
+
+      {/* FAMILIES */}
+      <section className="section-padding families-section" ref={el => refs.current["Families"]=el}>
+        <div className="section-script">with love from</div>
+        <div className="section-title">Our Families</div>
+        <div className="section-subtitle">Two homes, united in joy</div>
+        <Divider/>
+        <Families/>
+      </section>
+
+      {/* EVENTS */}
+      <section className="section-padding events-section" ref={el => refs.current["Events"]=el}>
+        <div className="section-script">the</div>
+        <div className="section-title">Celebrations</div>
+        <div className="section-subtitle">Whole day of joy, tradition, and togetherness · tap any card</div>
+        <Divider/>
+        <div className="events-grid">
+          {EVENTS.map((ev,i) => (
+            <FadeIn key={i} delay={i*100}>
+              <EventFlipCard ev={ev} eventDate={ev.dateObj}/>
+            </FadeIn>
+          ))}
+        </div>
+      </section>
+
+      {/* GALLERY */}
+      <section className="section-padding gallery-section" ref={el => refs.current["Gallery"]=el}>
+        <div className="section-script">our</div>
+        <div className="section-title">Gallery</div>
+        <div className="section-subtitle">Moments that tell our story · auto-playing</div>
+        <Divider/>
+        <GalleryCarousel photos={PHOTOS}/>
+      </section>
+
+      {/* VENUE */}
+      <section className="section-padding venue-section" ref={el => refs.current["Venue"]=el}>
+        <div className="section-script">the</div>
+        <div className="section-title">Venue</div>
+        <div className="section-subtitle">Where it all comes together</div>
+        <Divider/>
+        <FadeIn>
+          <div className="venue-card">
+            <div className="venue-icon">🏨</div>
+            <div className="venue-name">3AG Hotel & Resort</div>
+            <div className="venue-address">
+              Ayodhya, India<br/>
+              <span style={{fontSize:"14px",color:"var(--txt3)",fontStyle:"italic"}}>Set amid lush greenery — a serene escape for our celebrations</span>
+            </div>
+            <a className="venue-map-link" href="https://www.google.com/maps/search/3AG+Hotel+&+Resort+Ayodhya" target="_blank" rel="noopener noreferrer">
+              📍 View on Google Maps
+            </a>
+          </div>
+        </FadeIn>
+      </section>
+
+      {/* RSVP */}
+      <section className="section-padding rsvp-section" ref={el => refs.current["RSVP"]=el}>
+        <div className="section-script">kindly</div>
+        <div className="section-title">RSVP</div>
+        <div className="section-subtitle">Your presence will make our day complete</div>
+        <Divider/>
+        <FadeIn>
+          <div className="rsvp-card">
+            <RSVPForm/>
+          </div>
+        </FadeIn>
+      </section>
+
+      {/* MEMORIES */}
+      <section className="section-padding memories-section" ref={el => refs.current["Memories"]=el}>
+        <div className="section-script">share your</div>
+        <div className="section-title">Memories</div>
+        <div className="section-subtitle">Help us build our forever album</div>
+        <Divider/>
+        <Memories/>
+      </section>
+
+      {/* FOOTER */}
+      <div className="footer">
+        <div className="footer-mandala">❋</div>
+        <div className="footer-hindi">शुभ विवाह</div>
+        <div className="footer-eng">Your gracious presence and blessings are humbly requested</div>
+        <div className="footer-thanks">— With Love, Akanksha &amp; Avneesh —</div>
+        <div className="footer-copy">#Aviksha · Jul 2026 · Ayodhya</div>
+      </div>
+    </React.Fragment>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
+</script>
+</body>
+</html>
